@@ -1,0 +1,2162 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a35tfgg484-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13164 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 410.062 ; gain = 107.312
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/top.v:1]
+	Parameter LOCAL_MAC_ADDR bound to: 48'b010010000010110010100000110111110000000011111111 
+	Parameter TARGET_MAC_ADDR bound to: 48'b101111001110110010100000000110000010111111011101 
+	Parameter LOCAL_IP_ADDR bound to: -1442931356 - type: integer 
+	Parameter TARGET_IP_ADDR bound to: -1442931344 - type: integer 
+	Parameter LOCAL_PORT bound to: 16'b0000010011010010 
+	Parameter TARGET_PORT bound to: 16'b0000010011010010 
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/top.v:103]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/top.v:104]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/top.v:105]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/top.v:136]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/top.v:136]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/top.v:137]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/top.v:137]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/top.v:138]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/top.v:138]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/top.v:139]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/top.v:140]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/top.v:140]
+INFO: [Synth 8-6157] synthesizing module 'zc_ddr_clk_gen' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr_clk_gen.v:1]
+INFO: [Synth 8-6157] synthesizing module 'zc_ddr3_pll' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_pll.v:2]
+INFO: [Synth 8-6157] synthesizing module 'PLLE2_ADV' [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:41045]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT bound to: 24 - type: integer 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKIN1_PERIOD bound to: 20.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE bound to: 12 - type: integer 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_DIVIDE bound to: 3 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_DIVIDE bound to: 6 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_DIVIDE bound to: 3 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 90.000000 - type: float 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: float 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'PLLE2_ADV' (1#1) [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:41045]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:609]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (2#1) [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:609]
+INFO: [Synth 8-6155] done synthesizing module 'zc_ddr3_pll' (3#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_pll.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'zc_ddr_clk_gen' (4#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr_clk_gen.v:1]
+INFO: [Synth 8-6157] synthesizing module 'eth_clock_and_reset' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/eth_clcok_and_reset.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ethernet_mmcm' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.runs/synth_1/.Xil/Vivado-6148-else/realtime/ethernet_mmcm_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'ethernet_mmcm' (5#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.runs/synth_1/.Xil/Vivado-6148-else/realtime/ethernet_mmcm_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'eth_clock_and_reset' (6#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/eth_clcok_and_reset.v:3]
+INFO: [Synth 8-6157] synthesizing module 'user_rw_req_generate' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/user_rw_req_generate.v:3]
+	Parameter USER_WR_DATA_WIDTH bound to: 16 - type: integer 
+	Parameter WR_BURST_BYTE bound to: 1024 - type: integer 
+	Parameter USER_WR_NUMBER bound to: 511 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'vio_rw_trigger' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.runs/synth_1/.Xil/Vivado-6148-else/realtime/vio_rw_trigger_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'vio_rw_trigger' (7#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.runs/synth_1/.Xil/Vivado-6148-else/realtime/vio_rw_trigger_stub.v:6]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_vio_rw_trigger'. This will prevent further optimization [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/user_rw_req_generate.v:82]
+INFO: [Synth 8-6155] done synthesizing module 'user_rw_req_generate' (8#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/user_rw_req_generate.v:3]
+INFO: [Synth 8-6157] synthesizing module 'zc_m_axi_0_top' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_0_top.v:1]
+	Parameter ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter USER_WR_DATA_WIDTH bound to: 16 - type: integer 
+	Parameter AXI_WR_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter USER_RD_DATA_WIDTH bound to: 8 - type: integer 
+	Parameter AXI_RD_DATA_WIDTH bound to: 128 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'zc_m_axi_wr_0_channel' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_wr_0_channel.v:1]
+	Parameter ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter USER_WR_DATA_WIDTH bound to: 16 - type: integer 
+	Parameter AXI_WR_DATA_WIDTH bound to: 128 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'zc_m_axi_wr_1_user_itf' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_wr_1_user_itf.v:1]
+	Parameter ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter USER_WR_DATA_WIDTH bound to: 16 - type: integer 
+	Parameter AXI_WR_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter FOUR_KB_BOUNDARY bound to: 1024 - type: integer 
+	Parameter MAX_AXI_BURST_LENGTH bound to: 64 - type: integer 
+	Parameter BUFFER_USER_DATA_RATIO bound to: 8 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_wr_1_user_itf.v:38]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_wr_1_user_itf.v:39]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_wr_1_user_itf.v:40]
+WARNING: [Synth 8-5788] Register buffer_wr_addr_reg in module zc_m_axi_wr_1_user_itf is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_wr_1_user_itf.v:115]
+INFO: [Synth 8-6155] done synthesizing module 'zc_m_axi_wr_1_user_itf' (9#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_wr_1_user_itf.v:1]
+INFO: [Synth 8-6157] synthesizing module 'zc_m_axi_wr_2_buffer' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_wr_2_buffer.v:1]
+	Parameter ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter AXI_WR_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter AXI_BUFFER_IDLE bound to: 3'b000 
+	Parameter AXI_BUFFER_REQ bound to: 3'b001 
+	Parameter AXI_BUFFER_WRITE bound to: 3'b011 
+	Parameter AXI_BUFFER_END bound to: 3'b010 
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_wr_2_buffer.v:36]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_wr_2_buffer.v:37]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_wr_2_buffer.v:38]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_wr_2_buffer.v:40]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_wr_2_buffer.v:41]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_wr_2_buffer.v:42]
+INFO: [Synth 8-6157] synthesizing module 'FIFO36E1' [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:4621]
+	Parameter ALMOST_EMPTY_OFFSET bound to: 13'b0000000001000 
+	Parameter ALMOST_FULL_OFFSET bound to: 13'b0000110010000 
+	Parameter DATA_WIDTH bound to: 72 - type: integer 
+	Parameter DO_REG bound to: 1 - type: integer 
+	Parameter EN_ECC_READ bound to: FALSE - type: string 
+	Parameter EN_ECC_WRITE bound to: FALSE - type: string 
+	Parameter EN_SYN bound to: FALSE - type: string 
+	Parameter FIFO_MODE bound to: FIFO36_72 - type: string 
+	Parameter FIRST_WORD_FALL_THROUGH bound to: TRUE - type: string 
+	Parameter INIT bound to: 72'b000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter IS_RDCLK_INVERTED bound to: 1'b0 
+	Parameter IS_RDEN_INVERTED bound to: 1'b0 
+	Parameter IS_RSTREG_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter IS_WRCLK_INVERTED bound to: 1'b0 
+	Parameter IS_WREN_INVERTED bound to: 1'b0 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+	Parameter SRVAL bound to: 72'b000000000000000000000000000000000000000000000000000000000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'FIFO36E1' (10#1) [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:4621]
+INFO: [Synth 8-6157] synthesizing module 'async_fifo' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_async_fifo.v:1]
+	Parameter DEPTH bound to: 512 - type: integer 
+	Parameter WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'dual_port_ram' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/dual_port_ram.v:1]
+	Parameter WIDTH bound to: 1 - type: integer 
+	Parameter DEPTH bound to: 512 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'dual_port_ram' (11#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/dual_port_ram.v:1]
+INFO: [Synth 8-6157] synthesizing module 'read_ptr_empty' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_async_fifo.v:93]
+	Parameter DEPTH bound to: 512 - type: integer 
+	Parameter WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'read_ptr_empty' (12#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_async_fifo.v:93]
+INFO: [Synth 8-6157] synthesizing module 'write_ptr_full' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_async_fifo.v:125]
+	Parameter DEPTH bound to: 512 - type: integer 
+	Parameter WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'write_ptr_full' (13#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_async_fifo.v:125]
+INFO: [Synth 8-6157] synthesizing module 'sync_r2w' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_async_fifo.v:156]
+	Parameter DEPTH bound to: 512 - type: integer 
+	Parameter WIDTH bound to: 1 - type: integer 
+WARNING: [Synth 8-5788] Register sync_rd_pointer_reg in module sync_r2w is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_async_fifo.v:172]
+INFO: [Synth 8-6155] done synthesizing module 'sync_r2w' (14#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_async_fifo.v:156]
+INFO: [Synth 8-6157] synthesizing module 'sync_w2r' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_async_fifo.v:181]
+	Parameter DEPTH bound to: 512 - type: integer 
+	Parameter WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'sync_w2r' (15#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_async_fifo.v:181]
+INFO: [Synth 8-6155] done synthesizing module 'async_fifo' (16#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_async_fifo.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'zc_m_axi_wr_2_buffer' (17#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_wr_2_buffer.v:1]
+INFO: [Synth 8-6157] synthesizing module 'zc_m_axi_wr_3_axi_itf' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_wr_3_axi_itf.v:1]
+	Parameter ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter AXI_WR_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter M_AXI_IDLE bound to: 3'b000 
+	Parameter M_AXI_PRE bound to: 3'b001 
+	Parameter M_AXI_WRITE bound to: 3'b011 
+	Parameter M_AXI_END bound to: 3'b010 
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_wr_3_axi_itf.v:53]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_wr_3_axi_itf.v:54]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_wr_3_axi_itf.v:55]
+INFO: [Synth 8-6155] done synthesizing module 'zc_m_axi_wr_3_axi_itf' (18#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_wr_3_axi_itf.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'zc_m_axi_wr_0_channel' (19#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_wr_0_channel.v:1]
+INFO: [Synth 8-6157] synthesizing module 'zc_m_axi_rd_0_channel' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_0_channel.v:1]
+	Parameter ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter USER_RD_DATA_WIDTH bound to: 8 - type: integer 
+	Parameter AXI_RD_DATA_WIDTH bound to: 128 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'zc_m_axi_rd_1_user_itf' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_1_user_itf.v:1]
+	Parameter ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter USER_RD_DATA_WIDTH bound to: 8 - type: integer 
+	Parameter AXI_RD_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter FOUR_KB_BOUNDARY bound to: 1024 - type: integer 
+	Parameter MAX_AXI_BURST_LENGTH bound to: 64 - type: integer 
+	Parameter USER_RD_IDLE bound to: 2'b00 
+	Parameter USER_RD_REQ bound to: 2'b01 
+	Parameter USER_RD_END bound to: 2'b11 
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_1_user_itf.v:34]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_1_user_itf.v:35]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_1_user_itf.v:36]
+WARNING: [Synth 8-5788] Register buffer_rd_addr_reg in module zc_m_axi_rd_1_user_itf is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_1_user_itf.v:117]
+INFO: [Synth 8-6155] done synthesizing module 'zc_m_axi_rd_1_user_itf' (20#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_1_user_itf.v:1]
+INFO: [Synth 8-6157] synthesizing module 'zc_m_axi_rd_2_buffer' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_2_buffer.v:1]
+	Parameter ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter USER_RD_DATA_WIDTH bound to: 8 - type: integer 
+	Parameter AXI_RD_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter MAX_BIT_CNT bound to: 16 - type: integer 
+	Parameter BUFFER_RD_IDLE bound to: 2'b00 
+	Parameter BUFFER_RD_REQ bound to: 2'b01 
+	Parameter BUFFER_RD_READ bound to: 2'b11 
+	Parameter BUFFER_RD_END bound to: 2'b10 
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_2_buffer.v:25]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_2_buffer.v:26]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_2_buffer.v:27]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_2_buffer.v:42]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_2_buffer.v:43]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_2_buffer.v:44]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_2_buffer.v:46]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_2_buffer.v:47]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_2_buffer.v:48]
+INFO: [Synth 8-226] default block is never used [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_2_buffer.v:175]
+INFO: [Synth 8-6155] done synthesizing module 'zc_m_axi_rd_2_buffer' (21#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_2_buffer.v:1]
+INFO: [Synth 8-6157] synthesizing module 'zc_m_axi_rd_3_axi_itf' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_3_axi_itf.v:1]
+	Parameter ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter AXI_RD_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter USER_RD_DATA_WIDTH bound to: 8 - type: integer 
+	Parameter AXI_RD_IDLE bound to: 2'b00 
+	Parameter AXI_RD_PRE bound to: 2'b01 
+	Parameter AXI_RD_READ bound to: 2'b11 
+	Parameter AXI_RD_END bound to: 2'b10 
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_3_axi_itf.v:65]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_3_axi_itf.v:66]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_3_axi_itf.v:67]
+INFO: [Synth 8-226] default block is never used [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_3_axi_itf.v:86]
+INFO: [Synth 8-6155] done synthesizing module 'zc_m_axi_rd_3_axi_itf' (22#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_3_axi_itf.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'zc_m_axi_rd_0_channel' (23#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_0_channel.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'zc_m_axi_0_top' (24#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_0_top.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ddr_to_eth_send' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/ddr_to_eth_send.v:3]
+	Parameter IDLE bound to: 4'b0000 
+	Parameter PRE bound to: 4'b0001 
+	Parameter DATA_EN bound to: 4'b0010 
+	Parameter WAIT bound to: 4'b0100 
+	Parameter OVER bound to: 4'b1000 
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/ddr_to_eth_send.v:29]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/ddr_to_eth_send.v:44]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/ddr_to_eth_send.v:45]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/ddr_to_eth_send.v:46]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/ddr_to_eth_send.v:47]
+INFO: [Synth 8-6157] synthesizing module 'ddr_to_eth_fifo_w9xd4096' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.runs/synth_1/.Xil/Vivado-6148-else/realtime/ddr_to_eth_fifo_w9xd4096_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ddr_to_eth_fifo_w9xd4096' (25#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.runs/synth_1/.Xil/Vivado-6148-else/realtime/ddr_to_eth_fifo_w9xd4096_stub.v:6]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_ddr_to_eth_fifo_w9xd4096'. This will prevent further optimization [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/ddr_to_eth_send.v:167]
+INFO: [Synth 8-6155] done synthesizing module 'ddr_to_eth_send' (26#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/ddr_to_eth_send.v:3]
+INFO: [Synth 8-6157] synthesizing module 'rgmii_interface' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/rgmii_interface.v:3]
+INFO: [Synth 8-6157] synthesizing module 'rgmii_receive' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/rgmii_receive.v:3]
+INFO: [Synth 8-6157] synthesizing module 'IBUF' [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:20408]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IBUF' (27#1) [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:20408]
+INFO: [Synth 8-6157] synthesizing module 'IDELAYE2' [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:22477]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: FALSE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 0 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: float 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+	Parameter SIM_DELAY_D bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYE2' (28#1) [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:22477]
+INFO: [Synth 8-6157] synthesizing module 'IDDR' [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:22342]
+	Parameter DDR_CLK_EDGE bound to: SAME_EDGE_PIPELINED - type: string 
+	Parameter INIT_Q1 bound to: 1'b0 
+	Parameter INIT_Q2 bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IDDR' (29#1) [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:22342]
+INFO: [Synth 8-6157] synthesizing module 'IBUF__parameterized0' [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:20408]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IBUF__parameterized0' (29#1) [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:20408]
+INFO: [Synth 8-6157] synthesizing module 'BUFIO' [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:838]
+INFO: [Synth 8-6155] done synthesizing module 'BUFIO' (30#1) [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:838]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/rgmii_receive.v:64]
+INFO: [Synth 8-6157] synthesizing module 'IDELAYCTRL' [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:22464]
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYCTRL' (31#1) [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:22464]
+INFO: [Synth 8-6155] done synthesizing module 'rgmii_receive' (32#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/rgmii_receive.v:3]
+INFO: [Synth 8-6157] synthesizing module 'rgmii_send' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/rgmii_send.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ODDR' [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:31641]
+	Parameter DDR_CLK_EDGE bound to: SAME_EDGE - type: string 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'ODDR' (33#1) [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:31641]
+INFO: [Synth 8-6157] synthesizing module 'OBUF' [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:28230]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'OBUF' (34#1) [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:28230]
+INFO: [Synth 8-6157] synthesizing module 'OBUF__parameterized0' [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:28230]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'OBUF__parameterized0' (34#1) [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:28230]
+INFO: [Synth 8-6155] done synthesizing module 'rgmii_send' (35#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/rgmii_send.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'rgmii_interface' (36#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/rgmii_interface.v:3]
+INFO: [Synth 8-6157] synthesizing module 'udp_protocol_stack' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/udp_protocol_stack.v:3]
+	Parameter LOCAL_MAC_ADDR bound to: 48'b010010000010110010100000110111110000000011111111 
+	Parameter TARGET_MAC_ADDR bound to: 48'b101111001110110010100000000110000010111111011101 
+	Parameter LOCAL_IP_ADDR bound to: -1442931356 - type: integer 
+	Parameter TARGET_IP_ADDR bound to: -1442931344 - type: integer 
+	Parameter LOCAL_PORT bound to: 16'b0000010011010010 
+	Parameter TARGET_PORT bound to: 16'b0000010011010010 
+INFO: [Synth 8-6157] synthesizing module 'mac_layer' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/mac_layer.v:3]
+	Parameter LOCAL_MAC_ADDR bound to: 48'b010010000010110010100000110111110000000011111111 
+	Parameter TARGET_MAC_ADDR bound to: 48'b101111001110110010100000000110000010111111011101 
+	Parameter CRC_CHECK_EN bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'mac_send' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/mac_send.v:3]
+	Parameter LOCAL_MAC_ADDR bound to: 48'b010010000010110010100000110111110000000011111111 
+	Parameter TARGET_MAC_ADDR bound to: 48'b101111001110110010100000000110000010111111011101 
+	Parameter TX_IDLE bound to: 2'b00 
+	Parameter TX_PRE bound to: 2'b01 
+	Parameter TX_DATA bound to: 3'b011 
+	Parameter TX_END bound to: 3'b010 
+INFO: [Synth 8-226] default block is never used [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/mac_send.v:96]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/mac_send.v:228]
+INFO: [Synth 8-6157] synthesizing module 'frame_fifo_w17xd16' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.runs/synth_1/.Xil/Vivado-6148-else/realtime/frame_fifo_w17xd16_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'frame_fifo_w17xd16' (37#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.runs/synth_1/.Xil/Vivado-6148-else/realtime/frame_fifo_w17xd16_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'data_fifo_w9xd2048' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.runs/synth_1/.Xil/Vivado-6148-else/realtime/data_fifo_w9xd2048_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'data_fifo_w9xd2048' (38#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.runs/synth_1/.Xil/Vivado-6148-else/realtime/data_fifo_w9xd2048_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mac_send' (39#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/mac_send.v:3]
+INFO: [Synth 8-6157] synthesizing module 'mac_receive' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/mac_receive.v:3]
+	Parameter LOCAL_MAC_ADDR bound to: 48'b010010000010110010100000110111110000000011111111 
+	Parameter CRC_CHECK_EN bound to: 1 - type: integer 
+	Parameter RX_IDLE bound to: 2'b00 
+	Parameter RX_PRE bound to: 2'b01 
+	Parameter RX_DATA bound to: 2'b11 
+	Parameter RX_END bound to: 2'b10 
+INFO: [Synth 8-226] default block is never used [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/mac_receive.v:265]
+INFO: [Synth 8-6155] done synthesizing module 'mac_receive' (40#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/mac_receive.v:3]
+INFO: [Synth 8-6157] synthesizing module 'crc32_d8' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/crc32_d8.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'crc32_d8' (41#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/crc32_d8.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'mac_layer' (42#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/mac_layer.v:3]
+INFO: [Synth 8-6157] synthesizing module 'mac_to_arp_ip' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/mac_to_arp_ip.v:3]
+	Parameter ARP_TYPE bound to: 16'b0000100000000110 
+	Parameter IP_TYPE bound to: 16'b0000100000000000 
+INFO: [Synth 8-6155] done synthesizing module 'mac_to_arp_ip' (43#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/mac_to_arp_ip.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ip_layer' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/ip_layer.v:3]
+	Parameter LOCAL_IP_ADDR bound to: -1442931356 - type: integer 
+	Parameter TARGET_IP_ADDR bound to: -1442931344 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'ip_receive' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/ip_receive.v:3]
+	Parameter LOCAL_IP_ADDR bound to: -1442931356 - type: integer 
+	Parameter UDP_TYPE bound to: 8'b00010001 
+	Parameter ICMP_TYPE bound to: 8'b00000001 
+INFO: [Synth 8-6155] done synthesizing module 'ip_receive' (44#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/ip_receive.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ip_send' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/ip_send.v:3]
+	Parameter LOCAL_IP_ADDR bound to: -1442931356 - type: integer 
+	Parameter TARGET_IP_ADDR bound to: -1442931344 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'shift_ram_IP' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.runs/synth_1/.Xil/Vivado-6148-else/realtime/shift_ram_IP_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'shift_ram_IP' (45#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.runs/synth_1/.Xil/Vivado-6148-else/realtime/shift_ram_IP_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ip_send' (46#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/ip_send.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ip_layer' (47#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/ip_layer.v:3]
+INFO: [Synth 8-6157] synthesizing module 'udp_layer' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/udp_layer.v:3]
+	Parameter LOCAL_PORT bound to: 16'b0000010011010010 
+	Parameter TARGET_PORT bound to: 16'b0000010011010010 
+INFO: [Synth 8-6157] synthesizing module 'udp_receive' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/udp_receive.v:3]
+	Parameter LOCAL_PORT bound to: 16'b0000010011010010 
+INFO: [Synth 8-6155] done synthesizing module 'udp_receive' (48#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/udp_receive.v:3]
+INFO: [Synth 8-6157] synthesizing module 'udp_send' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/udp_send.v:3]
+	Parameter LOCAL_PORT bound to: 16'b0000010011010010 
+	Parameter TARGET_PORT bound to: 16'b0000010011010010 
+	Parameter READY_CNT_MAX bound to: 50 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element app_tx_data_last_r_reg was removed.  [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/udp_send.v:43]
+INFO: [Synth 8-6155] done synthesizing module 'udp_send' (49#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/udp_send.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'udp_layer' (50#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/udp_layer.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'udp_protocol_stack' (51#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/udp_protocol_stack.v:3]
+INFO: [Synth 8-6157] synthesizing module 'zc_ddr3_axi_slave_itf' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_axi_slave_itf.v:7]
+	Parameter AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter AXI_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter AXI_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter AXI_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter AXI_BUSER_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_axi_slave_itf.v:85]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_axi_slave_itf.v:86]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_axi_slave_itf.v:87]
+WARNING: [Synth 8-689] width (40) of port connection 'DO' does not match port width (64) of module 'FIFO36E1' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_axi_slave_itf.v:232]
+WARNING: [Synth 8-689] width (16) of port connection 'DO' does not match port width (64) of module 'FIFO36E1' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_axi_slave_itf.v:392]
+WARNING: [Synth 8-689] width (40) of port connection 'DO' does not match port width (64) of module 'FIFO36E1' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_axi_slave_itf.v:486]
+INFO: [Synth 8-6155] done synthesizing module 'zc_ddr3_axi_slave_itf' (52#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_axi_slave_itf.v:7]
+INFO: [Synth 8-6157] synthesizing module 'zc_ddr_mig' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr_mig.v:1]
+INFO: [Synth 8-6157] synthesizing module 'zc_ddr3_core' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_core.v:5]
+	Parameter DDR_MHZ bound to: 100 - type: integer 
+	Parameter DFI_WRITE_LATENCY bound to: 4 - type: integer 
+	Parameter DFI_READ_LATENCY bound to: 4 - type: integer 
+	Parameter DDR_COL_WIDTH bound to: 10 - type: integer 
+	Parameter DDR_ROW_WIDTH bound to: 14 - type: integer 
+	Parameter DDR_BRC_MODE bound to: BRC - type: string 
+	Parameter tCK_ns bound to: 10 - type: integer 
+	Parameter tXPR bound to: 30 - type: integer 
+	Parameter tMRD bound to: 6 - type: integer 
+	Parameter tMOD bound to: 15 - type: integer 
+	Parameter tZQinit bound to: 520 - type: integer 
+	Parameter tRP bound to: 3 - type: integer 
+	Parameter DDR_INIT_DELAY bound to: 70586 - type: integer 
+	Parameter INIT_TIME_CKE_LOW bound to: 51586 - type: integer 
+	Parameter INIT_TIME_RST_HIGH bound to: 50586 - type: integer 
+	Parameter INIT_TIME_CKE_HIGH bound to: 586 - type: integer 
+	Parameter INIT_TIME_MR2_SET bound to: 556 - type: integer 
+	Parameter INIT_TIME_MR3_SET bound to: 550 - type: integer 
+	Parameter INIT_TIME_MR1_SET bound to: 544 - type: integer 
+	Parameter INIT_TIME_MR0_SET bound to: 538 - type: integer 
+	Parameter INIT_TIME_ZQCL bound to: 523 - type: integer 
+	Parameter INIT_TIME_PREC bound to: 3 - type: integer 
+	Parameter DDR_REFI bound to: 750 - type: integer 
+	Parameter NOP_cmd bound to: 4'b0111 
+	Parameter ACT_cmd bound to: 4'b0011 
+	Parameter PREC_cmd bound to: 4'b0010 
+	Parameter REF_cmd bound to: 4'b0001 
+	Parameter MRS_cmd bound to: 4'b0000 
+	Parameter ZQCL_cmd bound to: 4'b0110 
+	Parameter READ_cmd bound to: 4'b0101 
+	Parameter WRITE_cmd bound to: 4'b0100 
+	Parameter MR0_PPD bound to: 1'b0 
+	Parameter MR0_WR bound to: 3'b000 
+	Parameter MR0_DLL bound to: 1'b1 
+	Parameter MR0_TM bound to: 1'b0 
+	Parameter MR0_CL bound to: 4'b0100 
+	Parameter MR0_RBT bound to: 1'b0 
+	Parameter MR0_BL bound to: 2'b00 
+	Parameter MR0_A13 bound to: 1'b0 
+	Parameter MR0_ADDR bound to: 14'b00000100100000 
+	Parameter MR0_BA bound to: 3'b000 
+	Parameter MR1_DLL bound to: 1'b1 
+	Parameter MR1_DIC bound to: 2'b00 
+	Parameter MR1_Rtt_Nom bound to: 3'b000 
+	Parameter MR1_AL bound to: 2'b00 
+	Parameter MR1_Level bound to: 1'b0 
+	Parameter MR1_TDQS bound to: 1'b0 
+	Parameter MR1_Qoff bound to: 1'b0 
+	Parameter MR1_A13 bound to: 1'b0 
+	Parameter MR1_ADDR bound to: 14'b00000000000001 
+	Parameter MR1_BA bound to: 3'b001 
+	Parameter MR2_PASR bound to: 3'b000 
+	Parameter MR2_CWL bound to: 3'b001 
+	Parameter MR2_ASR bound to: 1'b0 
+	Parameter MR2_SRT bound to: 1'b0 
+	Parameter MR2_Rtt_WR bound to: 2'b00 
+	Parameter MR2_A11_13 bound to: 3'b000 
+	Parameter MR2_ADDR bound to: 14'b00000000001000 
+	Parameter MR2_BA bound to: 3'b010 
+	Parameter MR3_MPR_Loc bound to: 2'b00 
+	Parameter MR3_MPR bound to: 1'b0 
+	Parameter MR3_A3_13 bound to: 11'b00000000000 
+	Parameter MR3_ADDR bound to: 14'b00000000000000 
+	Parameter MR3_BA bound to: 3'b011 
+	Parameter STATE_INIT bound to: 0 - type: integer 
+	Parameter STATE_IDLE bound to: 1 - type: integer 
+	Parameter STATE_ACT bound to: 2 - type: integer 
+	Parameter STATE_PREC bound to: 3 - type: integer 
+	Parameter STATE_REF bound to: 4 - type: integer 
+	Parameter STATE_READ bound to: 5 - type: integer 
+	Parameter STATE_WRITE bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'zc_ddr3_dfi' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_dfi.v:3]
+	Parameter DDR_MHZ bound to: 100 - type: integer 
+	Parameter DFI_WRITE_LATENCY bound to: 4 - type: integer 
+	Parameter DFI_READ_LATENCY bound to: 4 - type: integer 
+	Parameter DDR_COL_WIDTH bound to: 10 - type: integer 
+	Parameter DDR_ROW_WIDTH bound to: 14 - type: integer 
+	Parameter DFI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter DFI_DQM_WIDTH bound to: 4 - type: integer 
+	Parameter DFI_BURST_LEN bound to: 4 - type: integer 
+	Parameter tCK_ns bound to: 10 - type: integer 
+	Parameter tRCD bound to: 2 - type: integer 
+	Parameter tRP bound to: 2 - type: integer 
+	Parameter tRFC bound to: 30 - type: integer 
+	Parameter tWTR bound to: 6 - type: integer 
+	Parameter NOP_cmd bound to: 4'b0111 
+	Parameter ACT_cmd bound to: 4'b0011 
+	Parameter PREC_cmd bound to: 4'b0010 
+	Parameter REF_cmd bound to: 4'b0001 
+	Parameter MRS_cmd bound to: 4'b0000 
+	Parameter ZQCL_cmd bound to: 4'b0110 
+	Parameter WRITE_cmd bound to: 4'b0100 
+	Parameter READ_cmd bound to: 4'b0101 
+	Parameter tPHY_WRLAT bound to: 3 - type: integer 
+	Parameter tRDDATA_EN bound to: 3 - type: integer 
+	Parameter RW_NONSEQ_CYCLES bound to: 14 - type: integer 
+	Parameter RW_SEQ_CYCLES bound to: 11 - type: integer 
+	Parameter WR_SHIFT_WIDTH bound to: 7 - type: integer 
+	Parameter RD_SHIFT_WIDTH bound to: 7 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'zc_sync_fifo' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_sync_fifo.v:3]
+	Parameter WIDTH bound to: 144 - type: integer 
+	Parameter DEPTH bound to: 128 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'dual_port_ram__parameterized0' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/dual_port_ram.v:1]
+	Parameter WIDTH bound to: 144 - type: integer 
+	Parameter DEPTH bound to: 128 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'dual_port_ram__parameterized0' (52#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/dual_port_ram.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'zc_sync_fifo' (53#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_sync_fifo.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'zc_ddr3_dfi' (54#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_dfi.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'zc_ddr3_core' (55#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_core.v:5]
+INFO: [Synth 8-6157] synthesizing module 'zc_ddr3_phy' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:32]
+	Parameter REFCLK_FREQUENCY bound to: 200 - type: integer 
+	Parameter DQS_TAP_DELAY_INIT bound to: 27 - type: integer 
+	Parameter DQ_TAP_DELAY_INIT bound to: 0 - type: integer 
+	Parameter TPHY_RDLAT bound to: 5 - type: integer 
+	Parameter TPHY_WRLAT bound to: 3 - type: integer 
+	Parameter TPHY_WRDATA bound to: 0 - type: integer 
+	Parameter RD_SHIFT_W bound to: 8 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "TRUE" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:166]
+INFO: [Synth 8-5534] Detected attribute (* IOB = "TRUE" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:166]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "TRUE" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:167]
+INFO: [Synth 8-5534] Detected attribute (* IOB = "TRUE" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:167]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "TRUE" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:168]
+INFO: [Synth 8-5534] Detected attribute (* IOB = "TRUE" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:168]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "TRUE" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:169]
+INFO: [Synth 8-5534] Detected attribute (* IOB = "TRUE" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:169]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "TRUE" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:170]
+INFO: [Synth 8-5534] Detected attribute (* IOB = "TRUE" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:170]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "TRUE" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:171]
+INFO: [Synth 8-5534] Detected attribute (* IOB = "TRUE" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:171]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "TRUE" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:172]
+INFO: [Synth 8-5534] Detected attribute (* IOB = "TRUE" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:172]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "TRUE" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:173]
+INFO: [Synth 8-5534] Detected attribute (* IOB = "TRUE" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:173]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "TRUE" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:174]
+INFO: [Synth 8-5534] Detected attribute (* IOB = "TRUE" *) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:174]
+INFO: [Synth 8-6157] synthesizing module 'OBUFDS' [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:28244]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IOSTANDARD bound to: DIFF_SSTL15 - type: string 
+	Parameter SLEW bound to: FAST - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'OBUFDS' (56#1) [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:28244]
+INFO: [Synth 8-6157] synthesizing module 'IOBUFDS' [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:23632]
+	Parameter DIFF_TERM bound to: FALSE - type: string 
+	Parameter DQS_BIAS bound to: FALSE - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DIFF_SSTL15 - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IOBUFDS' (57#1) [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:23632]
+INFO: [Synth 8-6157] synthesizing module 'OSERDESE2' [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:32215]
+	Parameter DATA_RATE_OQ bound to: DDR - type: string 
+	Parameter DATA_RATE_TQ bound to: BUF - type: string 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter INIT_OQ bound to: 1'b0 
+	Parameter INIT_TQ bound to: 1'b0 
+	Parameter IS_CLKDIV_INVERTED bound to: 1'b0 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter IS_D3_INVERTED bound to: 1'b0 
+	Parameter IS_D4_INVERTED bound to: 1'b0 
+	Parameter IS_D5_INVERTED bound to: 1'b0 
+	Parameter IS_D6_INVERTED bound to: 1'b0 
+	Parameter IS_D7_INVERTED bound to: 1'b0 
+	Parameter IS_D8_INVERTED bound to: 1'b0 
+	Parameter IS_T1_INVERTED bound to: 1'b0 
+	Parameter IS_T2_INVERTED bound to: 1'b0 
+	Parameter IS_T3_INVERTED bound to: 1'b0 
+	Parameter IS_T4_INVERTED bound to: 1'b0 
+	Parameter SERDES_MODE bound to: MASTER - type: string 
+	Parameter SRVAL_OQ bound to: 1'b0 
+	Parameter SRVAL_TQ bound to: 1'b0 
+	Parameter TBYTE_CTL bound to: FALSE - type: string 
+	Parameter TBYTE_SRC bound to: FALSE - type: string 
+	Parameter TRISTATE_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2' (58#1) [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:32215]
+INFO: [Synth 8-6157] synthesizing module 'IOBUF' [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:23615]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: SSTL15 - type: string 
+	Parameter SLEW bound to: FAST - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (59#1) [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:23615]
+INFO: [Synth 8-6157] synthesizing module 'IDELAYE2__parameterized0' [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:22477]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: VARIABLE - type: string 
+	Parameter IDELAY_VALUE bound to: 27 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: float 
+	Parameter SIGNAL_PATTERN bound to: CLOCK - type: string 
+	Parameter SIM_DELAY_D bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYE2__parameterized0' (59#1) [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:22477]
+INFO: [Synth 8-6157] synthesizing module 'IDELAYE2__parameterized1' [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:22477]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: VARIABLE - type: string 
+	Parameter IDELAY_VALUE bound to: 0 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: float 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+	Parameter SIM_DELAY_D bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYE2__parameterized1' (59#1) [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:22477]
+INFO: [Synth 8-6157] synthesizing module 'ISERDESE2' [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:25967]
+	Parameter DATA_RATE bound to: DDR - type: string 
+	Parameter DATA_WIDTH bound to: 4 - type: integer 
+	Parameter DYN_CLKDIV_INV_EN bound to: FALSE - type: string 
+	Parameter DYN_CLK_INV_EN bound to: FALSE - type: string 
+	Parameter INIT_Q1 bound to: 1'b0 
+	Parameter INIT_Q2 bound to: 1'b0 
+	Parameter INIT_Q3 bound to: 1'b0 
+	Parameter INIT_Q4 bound to: 1'b0 
+	Parameter INTERFACE_TYPE bound to: MEMORY - type: string 
+	Parameter IOBDELAY bound to: IFD - type: string 
+	Parameter IS_CLKB_INVERTED bound to: 1'b0 
+	Parameter IS_CLKDIVP_INVERTED bound to: 1'b0 
+	Parameter IS_CLKDIV_INVERTED bound to: 1'b0 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_OCLKB_INVERTED bound to: 1'b0 
+	Parameter IS_OCLK_INVERTED bound to: 1'b0 
+	Parameter NUM_CE bound to: 1 - type: integer 
+	Parameter OFB_USED bound to: FALSE - type: string 
+	Parameter SERDES_MODE bound to: MASTER - type: string 
+	Parameter SRVAL_Q1 bound to: 1'b0 
+	Parameter SRVAL_Q2 bound to: 1'b0 
+	Parameter SRVAL_Q3 bound to: 1'b0 
+	Parameter SRVAL_Q4 bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'ISERDESE2' (60#1) [D:/software_download_zc/Vivado/download/Vivado/2018.3/scripts/rt/data/unisim_comp.v:25967]
+WARNING: [Synth 8-350] instance 'u_serdes_dq_in0' of module 'ISERDESE2' requires 28 connections, but only 24 given [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:1311]
+WARNING: [Synth 8-350] instance 'u_serdes_dq_in1' of module 'ISERDESE2' requires 28 connections, but only 24 given [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:1384]
+WARNING: [Synth 8-350] instance 'u_serdes_dq_in2' of module 'ISERDESE2' requires 28 connections, but only 24 given [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:1458]
+WARNING: [Synth 8-350] instance 'u_serdes_dq_in3' of module 'ISERDESE2' requires 28 connections, but only 24 given [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:1532]
+WARNING: [Synth 8-350] instance 'u_serdes_dq_in4' of module 'ISERDESE2' requires 28 connections, but only 24 given [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:1605]
+WARNING: [Synth 8-350] instance 'u_serdes_dq_in5' of module 'ISERDESE2' requires 28 connections, but only 24 given [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:1678]
+WARNING: [Synth 8-350] instance 'u_serdes_dq_in6' of module 'ISERDESE2' requires 28 connections, but only 24 given [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:1752]
+WARNING: [Synth 8-350] instance 'u_serdes_dq_in7' of module 'ISERDESE2' requires 28 connections, but only 24 given [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:1826]
+WARNING: [Synth 8-350] instance 'u_serdes_dq_in8' of module 'ISERDESE2' requires 28 connections, but only 24 given [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:1900]
+WARNING: [Synth 8-350] instance 'u_serdes_dq_in9' of module 'ISERDESE2' requires 28 connections, but only 24 given [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:1974]
+WARNING: [Synth 8-350] instance 'u_serdes_dq_in10' of module 'ISERDESE2' requires 28 connections, but only 24 given [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:2047]
+WARNING: [Synth 8-350] instance 'u_serdes_dq_in11' of module 'ISERDESE2' requires 28 connections, but only 24 given [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:2120]
+WARNING: [Synth 8-350] instance 'u_serdes_dq_in12' of module 'ISERDESE2' requires 28 connections, but only 24 given [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:2193]
+WARNING: [Synth 8-350] instance 'u_serdes_dq_in13' of module 'ISERDESE2' requires 28 connections, but only 24 given [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:2266]
+WARNING: [Synth 8-350] instance 'u_serdes_dq_in14' of module 'ISERDESE2' requires 28 connections, but only 24 given [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:2339]
+WARNING: [Synth 8-350] instance 'u_serdes_dq_in15' of module 'ISERDESE2' requires 28 connections, but only 24 given [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:2412]
+INFO: [Synth 8-6155] done synthesizing module 'zc_ddr3_phy' (61#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_phy.v:32]
+WARNING: [Synth 8-350] instance 'u_zc_ddr3_phy' of module 'zc_ddr3_phy' requires 38 connections, but only 36 given [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr_mig.v:97]
+INFO: [Synth 8-6157] synthesizing module 'vio_phy_init_done' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.runs/synth_1/.Xil/Vivado-6148-else/realtime/vio_phy_init_done_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'vio_phy_init_done' (62#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.runs/synth_1/.Xil/Vivado-6148-else/realtime/vio_phy_init_done_stub.v:6]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_vio_phy_init_done'. This will prevent further optimization [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr_mig.v:137]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_zc_ddr3_core'. This will prevent further optimization [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr_mig.v:61]
+INFO: [Synth 8-6155] done synthesizing module 'zc_ddr_mig' (63#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr_mig.v:1]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_zc_m_axi_0_top'. This will prevent further optimization [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/top.v:189]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_ddr_to_eth_send'. This will prevent further optimization [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/top.v:249]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_udp_protocol_stack'. This will prevent further optimization [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/top.v:293]
+INFO: [Synth 8-6155] done synthesizing module 'top' (64#1) [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/top.v:1]
+WARNING: [Synth 8-3331] design zc_ddr3_phy has unconnected port config_value_i[31]
+WARNING: [Synth 8-3331] design zc_ddr3_phy has unconnected port config_value_i[30]
+WARNING: [Synth 8-3331] design zc_ddr3_phy has unconnected port config_value_i[29]
+WARNING: [Synth 8-3331] design zc_ddr3_phy has unconnected port config_value_i[28]
+WARNING: [Synth 8-3331] design zc_ddr3_phy has unconnected port config_value_i[27]
+WARNING: [Synth 8-3331] design zc_ddr3_phy has unconnected port config_value_i[26]
+WARNING: [Synth 8-3331] design zc_ddr3_phy has unconnected port config_value_i[25]
+WARNING: [Synth 8-3331] design zc_ddr3_phy has unconnected port config_value_i[24]
+WARNING: [Synth 8-3331] design zc_ddr3_phy has unconnected port config_value_i[15]
+WARNING: [Synth 8-3331] design zc_ddr3_phy has unconnected port config_value_i[14]
+WARNING: [Synth 8-3331] design zc_ddr3_phy has unconnected port config_value_i[13]
+WARNING: [Synth 8-3331] design zc_ddr3_phy has unconnected port config_value_i[12]
+WARNING: [Synth 8-3331] design zc_ddr3_phy has unconnected port config_value_i[11]
+WARNING: [Synth 8-3331] design zc_ddr3_phy has unconnected port config_value_i[7]
+WARNING: [Synth 8-3331] design zc_ddr3_phy has unconnected port config_value_i[6]
+WARNING: [Synth 8-3331] design zc_ddr3_phy has unconnected port config_value_i[5]
+WARNING: [Synth 8-3331] design zc_ddr3_phy has unconnected port config_value_i[4]
+WARNING: [Synth 8-3331] design dual_port_ram__parameterized0 has unconnected port rd_clk
+WARNING: [Synth 8-3331] design dual_port_ram__parameterized0 has unconnected port rd_en
+WARNING: [Synth 8-3331] design zc_ddr3_dfi has unconnected port dfi_rddata_dnv_i[3]
+WARNING: [Synth 8-3331] design zc_ddr3_dfi has unconnected port dfi_rddata_dnv_i[2]
+WARNING: [Synth 8-3331] design zc_ddr3_dfi has unconnected port dfi_rddata_dnv_i[1]
+WARNING: [Synth 8-3331] design zc_ddr3_dfi has unconnected port dfi_rddata_dnv_i[0]
+WARNING: [Synth 8-3331] design zc_ddr3_core has unconnected port inport_addr_i[31]
+WARNING: [Synth 8-3331] design zc_ddr3_core has unconnected port inport_addr_i[30]
+WARNING: [Synth 8-3331] design zc_ddr3_core has unconnected port inport_addr_i[29]
+WARNING: [Synth 8-3331] design zc_ddr3_core has unconnected port inport_addr_i[28]
+WARNING: [Synth 8-3331] design zc_ddr3_core has unconnected port inport_addr_i[27]
+WARNING: [Synth 8-3331] design zc_ddr3_core has unconnected port inport_addr_i[2]
+WARNING: [Synth 8-3331] design zc_ddr3_core has unconnected port inport_addr_i[1]
+WARNING: [Synth 8-3331] design zc_ddr3_core has unconnected port inport_addr_i[0]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_awid[3]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_awid[2]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_awid[1]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_awid[0]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_awsize[2]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_awsize[1]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_awsize[0]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_awburst[1]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_awburst[0]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_awlock
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_awcache[3]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_awcache[2]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_awcache[1]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_awcache[0]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_awprot[2]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_awprot[1]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_awprot[0]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_awqos[3]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_awqos[2]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_awqos[1]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_awqos[0]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_awuser[0]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_wuser[0]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_arid[3]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_arid[2]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_arid[1]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_arid[0]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_arsize[2]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_arsize[1]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_arsize[0]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_arburst[1]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_arburst[0]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_arlock
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_arcache[3]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_arcache[2]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_arcache[1]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_arcache[0]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_arprot[2]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_arprot[1]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_arprot[0]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_arqos[3]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_arqos[2]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_arqos[1]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_arqos[0]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port s_axi_aruser[0]
+WARNING: [Synth 8-3331] design zc_ddr3_axi_slave_itf has unconnected port inport_ack_i
+WARNING: [Synth 8-3331] design ip_send has unconnected port udp_tx_data_last
+WARNING: [Synth 8-3331] design mac_to_arp_ip has unconnected port reset
+WARNING: [Synth 8-3331] design mac_send has unconnected port mac_tx_length[15]
+WARNING: [Synth 8-3331] design mac_send has unconnected port mac_tx_length[14]
+WARNING: [Synth 8-3331] design mac_send has unconnected port mac_tx_length[13]
+WARNING: [Synth 8-3331] design mac_send has unconnected port mac_tx_length[12]
+WARNING: [Synth 8-3331] design mac_send has unconnected port mac_tx_length[11]
+WARNING: [Synth 8-3331] design mac_send has unconnected port mac_tx_length[10]
+WARNING: [Synth 8-3331] design mac_send has unconnected port mac_tx_length[9]
+WARNING: [Synth 8-3331] design mac_send has unconnected port mac_tx_length[8]
+WARNING: [Synth 8-3331] design mac_send has unconnected port mac_tx_length[7]
+WARNING: [Synth 8-3331] design mac_send has unconnected port mac_tx_length[6]
+WARNING: [Synth 8-3331] design mac_send has unconnected port mac_tx_length[5]
+WARNING: [Synth 8-3331] design mac_send has unconnected port mac_tx_length[4]
+WARNING: [Synth 8-3331] design mac_send has unconnected port mac_tx_length[3]
+WARNING: [Synth 8-3331] design mac_send has unconnected port mac_tx_length[2]
+WARNING: [Synth 8-3331] design mac_send has unconnected port mac_tx_length[1]
+WARNING: [Synth 8-3331] design mac_send has unconnected port mac_tx_length[0]
+WARNING: [Synth 8-3331] design rgmii_send has unconnected port reset
+WARNING: [Synth 8-3331] design rgmii_receive has unconnected port reset
+WARNING: [Synth 8-3331] design zc_m_axi_rd_3_axi_itf has unconnected port axi_ar_length[8]
+WARNING: [Synth 8-3331] design zc_m_axi_rd_3_axi_itf has unconnected port m_axi_rid[3]
+WARNING: [Synth 8-3331] design zc_m_axi_rd_3_axi_itf has unconnected port m_axi_rid[2]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 567.836 ; gain = 265.086
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin u_zc_ddr3_phy:config_en_i to constant 0 [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr_mig.v:97]
+WARNING: [Synth 8-3295] tying undriven pin u_zc_ddr3_phy:config_value_i[23] to constant 0 [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr_mig.v:97]
+WARNING: [Synth 8-3295] tying undriven pin u_zc_ddr3_phy:config_value_i[22] to constant 0 [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr_mig.v:97]
+WARNING: [Synth 8-3295] tying undriven pin u_zc_ddr3_phy:config_value_i[21] to constant 0 [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr_mig.v:97]
+WARNING: [Synth 8-3295] tying undriven pin u_zc_ddr3_phy:config_value_i[20] to constant 0 [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr_mig.v:97]
+WARNING: [Synth 8-3295] tying undriven pin u_zc_ddr3_phy:config_value_i[19] to constant 0 [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr_mig.v:97]
+WARNING: [Synth 8-3295] tying undriven pin u_zc_ddr3_phy:config_value_i[18] to constant 0 [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr_mig.v:97]
+WARNING: [Synth 8-3295] tying undriven pin u_zc_ddr3_phy:config_value_i[17] to constant 0 [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr_mig.v:97]
+WARNING: [Synth 8-3295] tying undriven pin u_zc_ddr3_phy:config_value_i[16] to constant 0 [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr_mig.v:97]
+WARNING: [Synth 8-3295] tying undriven pin u_zc_ddr3_phy:config_value_i[10] to constant 0 [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr_mig.v:97]
+WARNING: [Synth 8-3295] tying undriven pin u_zc_ddr3_phy:config_value_i[9] to constant 0 [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr_mig.v:97]
+WARNING: [Synth 8-3295] tying undriven pin u_zc_ddr3_phy:config_value_i[8] to constant 0 [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr_mig.v:97]
+WARNING: [Synth 8-3295] tying undriven pin u_zc_ddr3_phy:config_value_i[3] to constant 0 [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr_mig.v:97]
+WARNING: [Synth 8-3295] tying undriven pin u_zc_ddr3_phy:config_value_i[2] to constant 0 [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr_mig.v:97]
+WARNING: [Synth 8-3295] tying undriven pin u_zc_ddr3_phy:config_value_i[1] to constant 0 [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr_mig.v:97]
+WARNING: [Synth 8-3295] tying undriven pin u_zc_ddr3_phy:config_value_i[0] to constant 0 [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr_mig.v:97]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 567.836 ; gain = 265.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 567.836 ; gain = 265.086
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 82 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Device 21-403] Loading part xc7a35tfgg484-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/ip/vio_phy_init_done/vio_phy_init_done/vio_phy_init_done_in_context.xdc] for cell 'u_zc_ddr_mig/u_vio_phy_init_done'
+Finished Parsing XDC File [d:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/ip/vio_phy_init_done/vio_phy_init_done/vio_phy_init_done_in_context.xdc] for cell 'u_zc_ddr_mig/u_vio_phy_init_done'
+Parsing XDC File [d:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/ip/vio_rw_trigger/vio_rw_trigger/vio_rw_trigger_in_context.xdc] for cell 'u_user_rw_req_generate/u_vio_rw_trigger'
+Finished Parsing XDC File [d:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/ip/vio_rw_trigger/vio_rw_trigger/vio_rw_trigger_in_context.xdc] for cell 'u_user_rw_req_generate/u_vio_rw_trigger'
+Parsing XDC File [d:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/ip/ddr_to_eth_fifo_w9xd4096/ddr_to_eth_fifo_w9xd4096/ddr_to_eth_fifo_w9xd4096_in_context.xdc] for cell 'u_ddr_to_eth_send/u_ddr_to_eth_fifo_w9xd4096'
+Finished Parsing XDC File [d:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/ip/ddr_to_eth_fifo_w9xd4096/ddr_to_eth_fifo_w9xd4096/ddr_to_eth_fifo_w9xd4096_in_context.xdc] for cell 'u_ddr_to_eth_send/u_ddr_to_eth_fifo_w9xd4096'
+Parsing XDC File [d:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/ip/ethernet_mmcm/ethernet_mmcm/ethernet_mmcm_in_context.xdc] for cell 'u_clock_and_reset/u_ethernet_mmcm'
+Finished Parsing XDC File [d:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/ip/ethernet_mmcm/ethernet_mmcm/ethernet_mmcm_in_context.xdc] for cell 'u_clock_and_reset/u_ethernet_mmcm'
+Parsing XDC File [d:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/ip/data_fifo_w9xd2048/data_fifo_w9xd2048/data_fifo_w9xd2048_in_context.xdc] for cell 'u_udp_protocol_stack/u_mac_layer/u_mac_send/u_rx_data_fifo'
+Finished Parsing XDC File [d:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/ip/data_fifo_w9xd2048/data_fifo_w9xd2048/data_fifo_w9xd2048_in_context.xdc] for cell 'u_udp_protocol_stack/u_mac_layer/u_mac_send/u_rx_data_fifo'
+Parsing XDC File [d:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/ip/data_fifo_w9xd2048/data_fifo_w9xd2048/data_fifo_w9xd2048_in_context.xdc] for cell 'u_udp_protocol_stack/u_mac_layer/u_mac_receive/u_rx_data_fifo'
+Finished Parsing XDC File [d:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/ip/data_fifo_w9xd2048/data_fifo_w9xd2048/data_fifo_w9xd2048_in_context.xdc] for cell 'u_udp_protocol_stack/u_mac_layer/u_mac_receive/u_rx_data_fifo'
+Parsing XDC File [d:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/ip/frame_fifo_w17xd16/frame_fifo_w17xd16/frame_fifo_w17xd16_in_context.xdc] for cell 'u_udp_protocol_stack/u_mac_layer/u_mac_send/u_rx_frame_fifo'
+Finished Parsing XDC File [d:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/ip/frame_fifo_w17xd16/frame_fifo_w17xd16/frame_fifo_w17xd16_in_context.xdc] for cell 'u_udp_protocol_stack/u_mac_layer/u_mac_send/u_rx_frame_fifo'
+Parsing XDC File [d:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/ip/frame_fifo_w17xd16/frame_fifo_w17xd16/frame_fifo_w17xd16_in_context.xdc] for cell 'u_udp_protocol_stack/u_mac_layer/u_mac_receive/u_rx_frame_fifo'
+Finished Parsing XDC File [d:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/ip/frame_fifo_w17xd16/frame_fifo_w17xd16/frame_fifo_w17xd16_in_context.xdc] for cell 'u_udp_protocol_stack/u_mac_layer/u_mac_receive/u_rx_frame_fifo'
+Parsing XDC File [d:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/ip/shift_ram_IP/shift_ram_IP/shift_ram_IP_in_context.xdc] for cell 'u_udp_protocol_stack/u_ip_layer/u_ip_send/u_shift_ram_IP'
+Finished Parsing XDC File [d:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/ip/shift_ram_IP/shift_ram_IP/shift_ram_IP_in_context.xdc] for cell 'u_udp_protocol_stack/u_ip_layer/u_ip_send/u_shift_ram_IP'
+Parsing XDC File [d:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/ip/shift_ram_IP/shift_ram_IP/shift_ram_IP_in_context.xdc] for cell 'u_udp_protocol_stack/u_udp_layer/u_udp_send/u_shift_ram_IP_2'
+Finished Parsing XDC File [d:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/ip/shift_ram_IP/shift_ram_IP/shift_ram_IP_in_context.xdc] for cell 'u_udp_protocol_stack/u_udp_layer/u_udp_send/u_shift_ram_IP_2'
+Parsing XDC File [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/constrs_1/new/total_cons.xdc]
+WARNING: [Constraints 18-619] A clock with name 'fpga_clk_50mhz' already exists, overwriting the previous clock with the same name. [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/constrs_1/new/total_cons.xdc:169]
+Finished Parsing XDC File [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/constrs_1/new/total_cons.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/constrs_1/new/total_cons.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 971.773 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 971.840 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 19 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 16 instances
+  IOBUFDS => IOBUFDS (IBUFDS, INV, OBUFTDS, OBUFTDS): 2 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 971.840 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.044 . Memory (MB): peak = 971.840 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'u_udp_protocol_stack/u_mac_layer/u_mac_receive/u_rx_data_fifo' at clock pin 'wr_clk' is different from the actual clock period '8.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'u_udp_protocol_stack/u_mac_layer/u_mac_receive/u_rx_frame_fifo' at clock pin 'wr_clk' is different from the actual clock period '8.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'u_udp_protocol_stack/u_mac_layer/u_mac_send/u_rx_data_fifo' at clock pin 'rd_clk' is different from the actual clock period '8.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'u_udp_protocol_stack/u_mac_layer/u_mac_send/u_rx_frame_fifo' at clock pin 'rd_clk' is different from the actual clock period '8.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 971.840 ; gain = 669.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tfgg484-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 971.840 ; gain = 669.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for fpga_clk_50mhz. (constraint file  d:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/ip/ethernet_mmcm/ethernet_mmcm/ethernet_mmcm_in_context.xdc, line 6).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for fpga_clk_50mhz. (constraint file  d:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/ip/ethernet_mmcm/ethernet_mmcm/ethernet_mmcm_in_context.xdc, line 7).
+Applied set_property DONT_TOUCH = true for u_zc_ddr_mig/u_vio_phy_init_done. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u_user_rw_req_generate/u_vio_rw_trigger. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u_ddr_to_eth_send/u_ddr_to_eth_fifo_w9xd4096. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u_clock_and_reset/u_ethernet_mmcm. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u_udp_protocol_stack/u_mac_layer/u_mac_send/u_rx_data_fifo. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u_udp_protocol_stack/u_mac_layer/u_mac_receive/u_rx_data_fifo. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u_udp_protocol_stack/u_mac_layer/u_mac_send/u_rx_frame_fifo. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u_udp_protocol_stack/u_mac_layer/u_mac_receive/u_rx_frame_fifo. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u_udp_protocol_stack/u_ip_layer/u_ip_send/u_shift_ram_IP. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u_udp_protocol_stack/u_udp_layer/u_udp_send/u_shift_ram_IP_2. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 971.840 ; gain = 669.090
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "byte_cnt" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "ram_reg[511]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[510]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[509]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[508]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[507]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[506]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[505]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[504]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[503]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[502]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[501]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[500]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[499]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[498]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[497]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[496]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[495]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[494]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[493]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[492]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[491]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[490]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[489]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[488]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[487]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[486]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[485]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[484]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[483]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[482]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[481]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[480]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[479]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[478]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[477]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[476]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[475]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[474]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[473]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[472]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[471]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[470]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[469]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[468]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[467]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[466]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[465]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[464]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[463]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[462]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[461]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[460]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[459]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[458]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[457]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[456]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[455]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[454]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[453]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[452]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[451]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[450]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[449]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[448]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[447]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[446]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[445]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[444]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[443]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[442]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[441]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[440]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[439]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[438]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[437]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[436]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[435]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[434]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[433]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[432]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[431]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[430]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[429]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[428]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[427]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[426]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[425]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[424]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[423]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[422]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[421]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[420]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[419]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[418]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[417]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[416]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[415]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[414]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[413]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram_reg[412]" won't be mapped to RAM because it is too sparse
+INFO: [Common 17-14] Message 'Synth 8-5546' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-802] inferred FSM for state register 'cur_state_reg' in module 'zc_m_axi_wr_2_buffer'
+INFO: [Synth 8-5544] ROM "axi_wr_req" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nex_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nex_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nex_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'cur_state_reg' in module 'zc_m_axi_wr_3_axi_itf'
+INFO: [Synth 8-5544] ROM "nex_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nex_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'cur_state_reg' in module 'zc_m_axi_rd_1_user_itf'
+INFO: [Synth 8-5544] ROM "read_req_en" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nex_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nex_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'cur_state_reg' in module 'zc_m_axi_rd_2_buffer'
+INFO: [Synth 8-5544] ROM "axi_rd_req" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nex_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nex_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nex_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'cur_state_reg' in module 'zc_m_axi_rd_3_axi_itf'
+INFO: [Synth 8-5544] ROM "nex_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nex_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'cur_status_reg' in module 'ddr_to_eth_send'
+INFO: [Synth 8-5544] ROM "wait_cnt" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rd_en" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nxt_status" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nxt_status" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'cur_state_reg' in module 'mac_send'
+INFO: [Synth 8-5544] ROM "tx_cnt" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nex_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nex_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'cur_state_reg' in module 'mac_receive'
+INFO: [Synth 8-5545] ROM "rx_preamble_check" won't be mapped to RAM because address size (56) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "rx_target_mac_check" won't be mapped to RAM because address size (48) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "data_rden" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nex_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nex_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nex_delay" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cur_actived_row_reg[7]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cur_actived_row_reg[6]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cur_actived_row_reg[5]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cur_actived_row_reg[4]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cur_actived_row_reg[3]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cur_actived_row_reg[2]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cur_actived_row_reg[1]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cur_actived_row_reg[0]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+         AXI_BUFFER_IDLE |                               00 |                              000
+          AXI_BUFFER_REQ |                               01 |                              001
+        AXI_BUFFER_WRITE |                               10 |                              011
+          AXI_BUFFER_END |                               11 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'cur_state_reg' using encoding 'sequential' in module 'zc_m_axi_wr_2_buffer'
+WARNING: [Synth 8-327] inferring latch for variable 'axi_awaddr_reg' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_wr_2_buffer.v:80]
+WARNING: [Synth 8-327] inferring latch for variable 'axi_awlength_reg' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_wr_2_buffer.v:81]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              M_AXI_IDLE |                               00 |                              000
+               M_AXI_PRE |                               01 |                              001
+             M_AXI_WRITE |                               10 |                              011
+               M_AXI_END |                               11 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'cur_state_reg' using encoding 'sequential' in module 'zc_m_axi_wr_3_axi_itf'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+            USER_RD_IDLE |                               00 |                               00
+             USER_RD_REQ |                               01 |                               01
+             USER_RD_END |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'cur_state_reg' using encoding 'sequential' in module 'zc_m_axi_rd_1_user_itf'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+          BUFFER_RD_IDLE |                               00 |                               00
+           BUFFER_RD_REQ |                               01 |                               01
+          BUFFER_RD_READ |                               10 |                               11
+           BUFFER_RD_END |                               11 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'cur_state_reg' using encoding 'sequential' in module 'zc_m_axi_rd_2_buffer'
+WARNING: [Synth 8-327] inferring latch for variable 'axi_ar_addr_reg' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_2_buffer.v:108]
+WARNING: [Synth 8-327] inferring latch for variable 'axi_ar_length_reg' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_m_axi_rd_2_buffer.v:109]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             AXI_RD_IDLE |                               00 |                               00
+              AXI_RD_PRE |                               01 |                               01
+             AXI_RD_READ |                               10 |                               11
+              AXI_RD_END |                               11 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'cur_state_reg' using encoding 'sequential' in module 'zc_m_axi_rd_3_axi_itf'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                              000 |                             0000
+                     PRE |                              001 |                             0001
+                 DATA_EN |                              010 |                             0010
+                    WAIT |                              011 |                             0100
+                    OVER |                              100 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'cur_status_reg' using encoding 'sequential' in module 'ddr_to_eth_send'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 TX_IDLE |                               00 |                               00
+                  TX_PRE |                               01 |                               01
+                 TX_DATA |                               10 |                               11
+                  TX_END |                               11 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'cur_state_reg' using encoding 'sequential' in module 'mac_send'
+WARNING: [Synth 8-327] inferring latch for variable 'crc_data_reg' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/sources_1/new/mac_send.v:226]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 RX_IDLE |                             0001 |                               00
+                  RX_PRE |                             0010 |                               01
+                 RX_DATA |                             0100 |                               11
+                  RX_END |                             1000 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'cur_state_reg' using encoding 'one-hot' in module 'mac_receive'
+WARNING: [Synth 8-327] inferring latch for variable 'target_nex_state_reg' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_core.v:209]
+WARNING: [Synth 8-327] inferring latch for variable 'addr_send_reg' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_core.v:317]
+WARNING: [Synth 8-327] inferring latch for variable 'ba_send_reg' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_core.v:318]
+WARNING: [Synth 8-327] inferring latch for variable 'cmd_send_reg' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_core.v:316]
+WARNING: [Synth 8-327] inferring latch for variable 'cke_send_reg' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_core.v:319]
+WARNING: [Synth 8-327] inferring latch for variable 'rst_n_send_reg' [D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.srcs/rtl/zc_ddr3_core.v:320]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:20 . Memory (MB): peak = 971.840 ; gain = 669.090
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-------------------------------------------+------------+----------+
+|      |RTL Partition                              |Replication |Instances |
++------+-------------------------------------------+------------+----------+
+|1     |rgmii_receive__GC0                         |           1|        14|
+|2     |rgmii_send__GC0                            |           1|         5|
+|3     |dual_port_ram__parameterized0__GB0         |           1|     20016|
+|4     |muxpart__813_dual_port_ram__parameterized0 |           1|     18288|
+|5     |dual_port_ram__parameterized0__GB2         |           1|      9626|
+|6     |dual_port_ram__parameterized0__GB3         |           1|     12281|
+|7     |dual_port_ram__parameterized0__GB4         |           1|     15401|
+|8     |zc_sync_fifo__GC0                          |           1|        93|
+|9     |zc_ddr3_dfi__GC0                           |           1|       964|
+|10    |zc_ddr3_core__GC0                          |           1|      1751|
+|11    |zc_ddr3_phy__GC0                           |           1|       722|
+|12    |zc_ddr_mig__GC0                            |           1|         2|
+|13    |top__GC0                                   |           1|     25112|
++------+-------------------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 5     
+	   2 Input     18 Bit       Adders := 1     
+	   3 Input     18 Bit       Adders := 1     
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 5     
+	   3 Input     11 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 6     
+	   2 Input     10 Bit       Adders := 4     
+	   3 Input     10 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 11    
+	   2 Input      8 Bit       Adders := 6     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 2     
++---XORs : 
+	   2 Input     10 Bit         XORs := 4     
+	   2 Input      1 Bit         XORs := 53    
+	   3 Input      1 Bit         XORs := 8     
+	   7 Input      1 Bit         XORs := 6     
+	   4 Input      1 Bit         XORs := 12    
+	   6 Input      1 Bit         XORs := 14    
+	  12 Input      1 Bit         XORs := 2     
+	   9 Input      1 Bit         XORs := 4     
+	   5 Input      1 Bit         XORs := 12    
+	  10 Input      1 Bit         XORs := 2     
++---Registers : 
+	              144 Bit    Registers := 128   
+	              128 Bit    Registers := 6     
+	               64 Bit    Registers := 1     
+	               56 Bit    Registers := 1     
+	               48 Bit    Registers := 1     
+	               32 Bit    Registers := 15    
+	               20 Bit    Registers := 5     
+	               18 Bit    Registers := 2     
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 16    
+	               14 Bit    Registers := 10    
+	               12 Bit    Registers := 1     
+	               11 Bit    Registers := 6     
+	               10 Bit    Registers := 12    
+	                9 Bit    Registers := 8     
+	                8 Bit    Registers := 31    
+	                7 Bit    Registers := 2     
+	                6 Bit    Registers := 2     
+	                4 Bit    Registers := 6     
+	                3 Bit    Registers := 5     
+	                2 Bit    Registers := 6     
+	                1 Bit    Registers := 1177  
++---Muxes : 
+	   2 Input    144 Bit        Muxes := 1     
+	   2 Input    128 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 7     
+	   2 Input     18 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input     14 Bit        Muxes := 4     
+	   7 Input     14 Bit        Muxes := 1     
+	   8 Input     14 Bit        Muxes := 2     
+	   3 Input     14 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 4     
+	   2 Input      9 Bit        Muxes := 6     
+	   2 Input      8 Bit        Muxes := 18    
+	  17 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 4     
+	   8 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   6 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 6     
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 10    
+	   3 Input      3 Bit        Muxes := 3     
+	   8 Input      3 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 8     
+	  10 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 2     
+	   7 Input      2 Bit        Muxes := 3     
+	   9 Input      2 Bit        Muxes := 1     
+	   8 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1262  
+	   3 Input      1 Bit        Muxes := 131   
+	   9 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 5     
+	   4 Input      1 Bit        Muxes := 4     
+	  10 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module top 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+Module rgmii_receive 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module dual_port_ram__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	              144 Bit    Registers := 128   
++---Muxes : 
+	   2 Input    144 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 128   
+	   3 Input      1 Bit        Muxes := 128   
+Module zc_sync_fifo 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 2     
+Module zc_ddr3_dfi 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	              128 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
+	               14 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                7 Bit    Registers := 2     
+	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     14 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 3     
+	   2 Input      7 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	   6 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+Module zc_ddr3_core 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     18 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 1     
+	               14 Bit    Registers := 8     
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 2     
+	   2 Input     14 Bit        Muxes := 3     
+	   7 Input     14 Bit        Muxes := 1     
+	   8 Input     14 Bit        Muxes := 2     
+	   3 Input     14 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 5     
+	   2 Input      6 Bit        Muxes := 3     
+	   8 Input      6 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 5     
+	   8 Input      3 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	  10 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   7 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 40    
+	   9 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 5     
+	   4 Input      1 Bit        Muxes := 3     
+	  10 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+Module zc_ddr3_phy 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	               16 Bit    Registers := 1     
+	               14 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 11    
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 4     
+Module zc_ddr_clk_gen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+Module eth_clock_and_reset 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module user_rw_req_generate 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module zc_m_axi_wr_1_user_itf 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	              128 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+Module dual_port_ram 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 512   
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 513   
+Module read_ptr_empty 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---XORs : 
+	   2 Input     10 Bit         XORs := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+Module write_ptr_full 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---XORs : 
+	   2 Input     10 Bit         XORs := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+Module sync_r2w 
+Detailed RTL Component Info : 
++---Registers : 
+	               10 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 2     
+Module sync_w2r 
+Detailed RTL Component Info : 
++---Registers : 
+	               10 Bit    Registers := 2     
+Module zc_m_axi_wr_2_buffer 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input    128 Bit        Muxes := 2     
+	   9 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module zc_m_axi_wr_3_axi_itf 
+Detailed RTL Component Info : 
++---Registers : 
+	              128 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   8 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module zc_m_axi_rd_1_user_itf 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   7 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module dual_port_ram__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 512   
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 513   
+Module read_ptr_empty__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---XORs : 
+	   2 Input     10 Bit         XORs := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+Module write_ptr_full__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---XORs : 
+	   2 Input     10 Bit         XORs := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+Module sync_r2w__1 
+Detailed RTL Component Info : 
++---Registers : 
+	               10 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 2     
+Module sync_w2r__1 
+Detailed RTL Component Info : 
++---Registers : 
+	               10 Bit    Registers := 2     
+Module zc_m_axi_rd_2_buffer 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     11 Bit       Adders := 2     
+	   3 Input     10 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	              128 Bit    Registers := 1     
+	               64 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 13    
++---Muxes : 
+	   2 Input    128 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   8 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 9     
+Module zc_m_axi_rd_3_axi_itf 
+Detailed RTL Component Info : 
++---Registers : 
+	              128 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   7 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module ddr_to_eth_send 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               20 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 4     
+Module mac_send 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 2     
+	               11 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	  17 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	   4 Input      8 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 8     
+	   4 Input      1 Bit        Muxes := 1     
+Module mac_receive 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
++---Registers : 
+	               56 Bit    Registers := 1     
+	               48 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	               11 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 7     
+	                1 Bit    Registers := 26    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module crc32_d8__1 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 26    
+	   3 Input      1 Bit         XORs := 4     
+	   7 Input      1 Bit         XORs := 3     
+	   4 Input      1 Bit         XORs := 6     
+	   6 Input      1 Bit         XORs := 7     
+	  12 Input      1 Bit         XORs := 1     
+	   9 Input      1 Bit         XORs := 2     
+	   5 Input      1 Bit         XORs := 6     
+	  10 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module crc32_d8 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 26    
+	   3 Input      1 Bit         XORs := 4     
+	   7 Input      1 Bit         XORs := 3     
+	   4 Input      1 Bit         XORs := 6     
+	   6 Input      1 Bit         XORs := 7     
+	  12 Input      1 Bit         XORs := 1     
+	   9 Input      1 Bit         XORs := 2     
+	   5 Input      1 Bit         XORs := 6     
+	  10 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module mac_to_arp_ip 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 2     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module ip_receive 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 3     
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module ip_send 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
+	   3 Input     18 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	               18 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+Module udp_receive 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 2     
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module udp_send 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 2     
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 3     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module udp_protocol_stack 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 4     
++---Registers : 
+	               20 Bit    Registers := 4     
+	                1 Bit    Registers := 12    
+Module zc_ddr3_axi_slave_itf 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 3     
++---Registers : 
+	              128 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                9 Bit    Registers := 3     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input    128 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 11    
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5580] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "ba_send1" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_zc_ddr_mig/u_zc_ddr3_core /i_0/\cmd_send_reg[3] )
+INFO: [Synth 8-3886] merging instance 'u_zc_ddr3_phyi_3/config_en_d_reg' (FDR) to 'u_zc_ddr3_phyi_3/dq_delay_rst_q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_zc_ddr3_phyi_3/dq_delay_rst_q_reg[0]' (FDR) to 'u_zc_ddr3_phyi_3/dq_delay_rst_q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_zc_ddr3_phyi_3/dq_delay_inc_q_reg[0]' (FDR) to 'u_zc_ddr3_phyi_3/dq_delay_rst_q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_zc_ddr3_phyi_3/dq_delay_rst_q_reg[1]' (FDR) to 'u_zc_ddr3_phyi_3/dqs_delay_rst_q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_zc_ddr3_phyi_3/dq_delay_inc_q_reg[1]' (FDR) to 'u_zc_ddr3_phyi_3/dqs_delay_rst_q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_zc_ddr3_phyi_3/dqs_delay_rst_q_reg[0]' (FDR) to 'u_zc_ddr3_phyi_3/dqs_delay_inc_q_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_zc_ddr3_phyi_3/\dqs_delay_inc_q_reg[0] )
+INFO: [Synth 8-3886] merging instance 'u_zc_ddr3_phyi_3/phy_rdlat_reg[2]' (FDSE) to 'u_zc_ddr3_phyi_3/phy_rdlat_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_zc_ddr3_phyi_3/\phy_rdlat_reg[1] )
+INFO: [Synth 8-3886] merging instance 'u_zc_ddr3_phyi_3/phy_rdlat_reg[0]' (FDSE) to 'u_zc_ddr3_phyi_3/rd_sel_q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_zc_ddr3_phyi_3/rd_sel_q_reg[0]' (FDSE) to 'u_zc_ddr3_phyi_3/rd_sel_q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_zc_ddr3_phyi_3/rd_sel_q_reg[1]' (FDSE) to 'u_zc_ddr3_phyi_3/rd_sel_q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_zc_ddr3_phyi_3/rd_sel_q_reg[2]' (FDSE) to 'u_zc_ddr3_phyi_3/rd_sel_q_reg[3]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u_zc_ddr3_phyi_3/\rd_sel_q_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_zc_ddr_mig/u_zc_ddr3_core /ddr_dfi_phyi_6/\cmd_accept_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_zc_ddr_mig/u_zc_ddr3_core /ddr_dfi_phyi_6/\last_vld_cmd_reg[3] )
+INFO: [Common 17-14] Message 'Synth 8-5546' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-5546' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5545] ROM "u_mac_layer/u_mac_receive/rx_target_mac_check" won't be mapped to RAM because address size (48) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "u_mac_layer/u_mac_receive/rx_preamble_check" won't be mapped to RAM because address size (56) is larger than maximum supported(25)
+INFO: [Synth 8-3886] merging instance 's_axi_bresp_reg__0i_3' (FDC) to 's_axi_bresp_reg__0i_2'
+INFO: [Synth 8-3886] merging instance 'u_zc_ddr3_axi_slave_itf/s_axi_bresp_tristate_oe_reg[0]' (FD) to 'u_zc_ddr3_axi_slave_itf/s_axi_bresp_tristate_oe_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_zc_ddr3_axi_slave_itf/s_axi_bresp_tristate_oe_reg[1] )
+INFO: [Synth 8-3886] merging instance 'u_clock_and_reset/cnt_reg[9]' (FDCE) to 'u_clock_and_reset/cnt_reg[10]'
+INFO: [Synth 8-3886] merging instance 'u_clock_and_reset/cnt_reg[10]' (FDCE) to 'u_clock_and_reset/cnt_reg[11]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_clock_and_reset/cnt_reg[11] )
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[32]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[33]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[33]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[34]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[34]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[35]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[35]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[36]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[36]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[37]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[38]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[39]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[39]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[40]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[40]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[41]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[41]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[42]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[42]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[43]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[43]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[44]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[44]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[45]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[45]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[46]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[46]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[47]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[47]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[48]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[48]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[49]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[49]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[50]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[50]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[51]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[51]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[52]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[52]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[53]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[53]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[54]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[54]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[55]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[55]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[56]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[56]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[57]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[57]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[58]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[58]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[59]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[59]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[60]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[60]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[61]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[61]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[62]'
+INFO: [Synth 8-3886] merging instance 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[62]' (FDCE) to 'u_zc_m_axi_0_top/u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer/rd_cmd_fifo_wr_data_reg[63]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_zc_m_axi_0_top/\u_zc_m_axi_rd_0_channel/u_zc_m_axi_rd_2_buffer /\rd_cmd_fifo_wr_data_reg[63] )
+WARNING: [Synth 8-3332] Sequential element (u_zc_m_axi_wr_2_buffer/axi_awlength_reg[8]) is unused and will be removed from module zc_m_axi_wr_0_channel.
+WARNING: [Synth 8-3332] Sequential element (axi_ar_length_reg[8]) is unused and will be removed from module zc_m_axi_rd_2_buffer.
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_mac_layer/u_mac_receive/rx_crc_din_reg[2]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_receive/data_din_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_mac_layer/u_mac_receive/rx_crc_din_reg[3]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_receive/data_din_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_mac_layer/u_mac_receive/rx_crc_din_reg[4]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_receive/data_din_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_mac_layer/u_mac_receive/rx_crc_din_reg[5]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_receive/data_din_reg[5]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_mac_layer/u_mac_receive/rx_crc_din_reg[0]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_receive/data_din_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_mac_layer/u_mac_receive/rx_crc_din_reg[6]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_receive/data_din_reg[6]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_mac_layer/u_mac_receive/rx_crc_din_reg[7]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_receive/data_din_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_mac_layer/u_mac_receive/rx_crc_din_reg[1]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_receive/data_din_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_mac_layer/u_mac_receive/rx_data_last_d0_reg' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_receive/data_din_reg[8]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/phy_rx_reset_timer_reg[9]' (FDCE) to 'u_udp_protocol_stack/phy_rx_reset_timer_reg[10]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/phy_rx_reset_timer_reg[10]' (FDCE) to 'u_udp_protocol_stack/phy_rx_reset_timer_reg[11]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/phy_rx_reset_timer_reg[11]' (FDCE) to 'u_udp_protocol_stack/phy_rx_reset_timer_reg[12]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/phy_rx_reset_timer_reg[12]' (FDCE) to 'u_udp_protocol_stack/phy_rx_reset_timer_reg[13]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/phy_rx_reset_timer_reg[13]' (FDCE) to 'u_udp_protocol_stack/phy_rx_reset_timer_reg[14]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/phy_rx_reset_timer_reg[14]' (FDCE) to 'u_udp_protocol_stack/phy_rx_reset_timer_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/phy_rx_reset_timer_reg[15]' (FDCE) to 'u_udp_protocol_stack/phy_rx_reset_timer_reg[16]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/phy_rx_reset_timer_reg[16]' (FDCE) to 'u_udp_protocol_stack/phy_rx_reset_timer_reg[17]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/phy_rx_reset_timer_reg[17]' (FDCE) to 'u_udp_protocol_stack/phy_rx_reset_timer_reg[18]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/phy_rx_reset_timer_reg[18]' (FDCE) to 'u_udp_protocol_stack/phy_rx_reset_timer_reg[19]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_udp_protocol_stack/\phy_rx_reset_timer_reg[19] )
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add1_reg[16]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[11]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add2_reg[16]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[11]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add1_reg[17]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add2_reg[17]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add1_reg[18]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add2_reg[18]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add1_reg[19]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add2_reg[19]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add1_reg[20]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add2_reg[20]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add1_reg[21]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add2_reg[21]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add1_reg[22]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add2_reg[22]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add1_reg[23]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add2_reg[23]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add1_reg[24]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add2_reg[24]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add1_reg[25]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add2_reg[25]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add1_reg[26]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add2_reg[26]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add1_reg[27]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add2_reg[27]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add1_reg[28]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add2_reg[28]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add1_reg[29]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add2_reg[29]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add1_reg[30]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add2_reg[30]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add2_reg[31]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add1_reg[31]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add1_reg[0]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[11]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add2_reg[0]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add1_reg[1]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[11]'
+INFO: [Synth 8-3886] merging instance 'u_udp_protocol_stack/u_ip_layer/u_ip_send/add2_reg[1]' (FD) to 'u_udp_protocol_stack/u_mac_layer/u_mac_send/frame_din_reg[11]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_udp_protocol_stack/\app_rx_reset_timer_reg[19] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u_udp_protocol_stack/\u_mac_layer/u_mac_send/frame_din_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_udp_protocol_stack/\u_mac_layer/u_mac_send/frame_din_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_udp_protocol_stack/\phy_tx_reset_timer_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_udp_protocol_stack/\app_tx_reset_timer_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_udp_protocol_stack/\u_ip_layer/u_ip_send/check_sum_reg[31] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:46 . Memory (MB): peak = 971.840 ; gain = 669.090
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-------------------------------------------+------------+----------+
+|      |RTL Partition                              |Replication |Instances |
++------+-------------------------------------------+------------+----------+
+|1     |rgmii_receive__GC0                         |           1|        13|
+|2     |rgmii_send__GC0                            |           1|         5|
+|3     |dual_port_ram__parameterized0__GB0         |           1|     19153|
+|4     |muxpart__813_dual_port_ram__parameterized0 |           1|     18288|
+|5     |dual_port_ram__parameterized0__GB2         |           1|      4783|
+|6     |dual_port_ram__parameterized0__GB3         |           1|      5852|
+|7     |dual_port_ram__parameterized0__GB4         |           1|      7315|
+|8     |zc_sync_fifo__GC0                          |           1|        66|
+|9     |zc_ddr3_dfi__GC0                           |           1|       640|
+|10    |zc_ddr3_core__GC0                          |           1|       782|
+|11    |zc_ddr3_phy__GC0                           |           1|       182|
+|12    |zc_ddr_mig__GC0                            |           1|         2|
+|13    |top__GC0                                   |           1|     13913|
++------+-------------------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'u_clock_and_reset/u_ethernet_mmcm/clk_out_125m' to pin 'u_clock_and_reset/u_ethernet_mmcm/bbstub_clk_out_125m/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'u_clock_and_reset/u_ethernet_mmcm/clk_out_200m' to pin 'u_clock_and_reset/u_ethernet_mmcm/bbstub_clk_out_200m/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'u_clock_and_reset/u_ethernet_mmcm/clk_out_25m' to pin 'u_clock_and_reset/u_ethernet_mmcm/bbstub_clk_out_25m/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'u_clock_and_reset/u_ethernet_mmcm/clk_out_50m' to pin 'u_clock_and_reset/u_ethernet_mmcm/bbstub_clk_out_50m/O'
+WARNING: [Synth 8-565] redefining clock 'fpga_clk_50mhz'
+INFO: [Synth 8-5819] Moved 4 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:52 . Memory (MB): peak = 971.840 ; gain = 669.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:01:00 . Memory (MB): peak = 1016.082 ; gain = 713.332
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-------------------------------------------+------------+----------+
+|      |RTL Partition                              |Replication |Instances |
++------+-------------------------------------------+------------+----------+
+|1     |rgmii_receive__GC0                         |           1|        13|
+|2     |rgmii_send__GC0                            |           1|         5|
+|3     |dual_port_ram__parameterized0__GB0         |           1|     19153|
+|4     |muxpart__813_dual_port_ram__parameterized0 |           1|     18288|
+|5     |dual_port_ram__parameterized0__GB2         |           1|      4783|
+|6     |dual_port_ram__parameterized0__GB3         |           1|      5852|
+|7     |dual_port_ram__parameterized0__GB4         |           1|      7315|
+|8     |zc_sync_fifo__GC0                          |           1|        66|
+|9     |zc_ddr3_phy__GC0                           |           1|       182|
+|10    |zc_ddr_mig__GC0                            |           1|         2|
+|11    |top__GC0                                   |           1|     13881|
+|12    |zc_ddr3_core_GT0                           |           1|      1411|
++------+-------------------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:38 ; elapsed = 00:01:13 . Memory (MB): peak = 1016.082 ; gain = 713.332
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-------------------------------------------+------------+----------+
+|      |RTL Partition                              |Replication |Instances |
++------+-------------------------------------------+------------+----------+
+|1     |rgmii_receive__GC0                         |           1|        13|
+|2     |rgmii_send__GC0                            |           1|         5|
+|3     |dual_port_ram__parameterized0__GB0         |           1|      9361|
+|4     |muxpart__813_dual_port_ram__parameterized0 |           1|      8496|
+|5     |dual_port_ram__parameterized0__GB2         |           1|      4764|
+|6     |dual_port_ram__parameterized0__GB3         |           1|      5816|
+|7     |dual_port_ram__parameterized0__GB4         |           1|      7279|
+|8     |zc_sync_fifo__GC0                          |           1|        40|
+|9     |zc_ddr3_phy__GC0                           |           1|       176|
+|10    |zc_ddr_mig__GC0                            |           1|         2|
+|11    |top__GC0                                   |           1|      8133|
+|12    |zc_ddr3_core_GT0                           |           1|       753|
++------+-------------------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5365] Flop phy_tx_reset_timer_reg[8] is being inverted and renamed to phy_tx_reset_timer_reg[8]_inv.
+INFO: [Synth 8-5365] Flop app_tx_reset_timer_reg[8] is being inverted and renamed to app_tx_reset_timer_reg[8]_inv.
+INFO: [Synth 8-5365] Flop app_rx_reset_timer_reg[8] is being inverted and renamed to app_rx_reset_timer_reg[8]_inv.
+INFO: [Synth 8-5365] Flop phy_rx_reset_timer_reg[8] is being inverted and renamed to phy_rx_reset_timer_reg[8]_inv.
+INFO: [Synth 8-4163] Replicating register \u_zc_ddr_mig/u_zc_ddr3_phy/odt_r_reg  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \u_zc_ddr_mig/u_zc_ddr3_phy/addr_r_reg[0]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \u_zc_ddr_mig/u_zc_ddr3_phy/addr_r_reg[1]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \u_zc_ddr_mig/u_zc_ddr3_phy/addr_r_reg[2]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \u_zc_ddr_mig/u_zc_ddr3_phy/addr_r_reg[3]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \u_zc_ddr_mig/u_zc_ddr3_phy/addr_r_reg[4]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \u_zc_ddr_mig/u_zc_ddr3_phy/addr_r_reg[5]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \u_zc_ddr_mig/u_zc_ddr3_phy/addr_r_reg[6]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \u_zc_ddr_mig/u_zc_ddr3_phy/addr_r_reg[7]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \u_zc_ddr_mig/u_zc_ddr3_phy/addr_r_reg[8]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \u_zc_ddr_mig/u_zc_ddr3_phy/addr_r_reg[9]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \u_zc_ddr_mig/u_zc_ddr3_phy/addr_r_reg[10]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \u_zc_ddr_mig/u_zc_ddr3_phy/addr_r_reg[11]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \u_zc_ddr_mig/u_zc_ddr3_phy/addr_r_reg[12]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \u_zc_ddr_mig/u_zc_ddr3_phy/addr_r_reg[13]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \u_zc_ddr_mig/u_zc_ddr3_phy/ba_r_reg[0]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \u_zc_ddr_mig/u_zc_ddr3_phy/ba_r_reg[1]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \u_zc_ddr_mig/u_zc_ddr3_phy/ba_r_reg[2]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \u_zc_ddr_mig/u_zc_ddr3_phy/cs_n_r_reg  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \u_zc_ddr_mig/u_zc_ddr3_phy/we_n_r_reg  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \u_zc_ddr_mig/u_zc_ddr3_phy/cas_n_r_reg  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \u_zc_ddr_mig/u_zc_ddr3_phy/ras_n_r_reg  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \u_zc_ddr_mig/u_zc_ddr3_phy/reset_n_r_reg  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \u_zc_ddr_mig/u_zc_ddr3_phy/cke_r_reg  to handle IOB=TRUE attribute
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:41 ; elapsed = 00:01:19 . Memory (MB): peak = 1016.082 ; gain = 713.332
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:41 ; elapsed = 00:01:19 . Memory (MB): peak = 1016.082 ; gain = 713.332
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:43 ; elapsed = 00:01:23 . Memory (MB): peak = 1016.082 ; gain = 713.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:43 ; elapsed = 00:01:23 . Memory (MB): peak = 1016.082 ; gain = 713.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:44 ; elapsed = 00:01:23 . Memory (MB): peak = 1016.082 ; gain = 713.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:44 ; elapsed = 00:01:23 . Memory (MB): peak = 1016.082 ; gain = 713.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++-------------------+---------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name        | RTL Name                                          | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++-------------------+---------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|zc_ddr3_core       | ddr_dfi_phy/dfi_rddata_en_r_reg                   | 5      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|zc_ddr3_core       | ddr_dfi_phy/wr_en_shift_reg[0]                    | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|udp_protocol_stack | u_mac_layer/u_mac_receive/gmii_rx_data_vld_d4_reg | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|udp_protocol_stack | u_mac_layer/u_mac_receive/gmii_rx_data_d4_reg[7]  | 5      | 8     | NO           | NO                 | YES               | 8      | 0       | 
+|top                | u_user_rw_req_generate/user_rd_req_reg            | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++-------------------+---------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-------------------------+----------+
+|      |BlackBox name            |Instances |
++------+-------------------------+----------+
+|1     |ddr_to_eth_fifo_w9xd4096 |         1|
+|2     |shift_ram_IP             |         2|
+|3     |frame_fifo_w17xd16       |         2|
+|4     |data_fifo_w9xd2048       |         2|
+|5     |ethernet_mmcm            |         1|
+|6     |vio_rw_trigger           |         1|
+|7     |vio_phy_init_done        |         1|
++------+-------------------------+----------+
+
+Report Cell Usage: 
++------+-------------------------+------+
+|      |Cell                     |Count |
++------+-------------------------+------+
+|1     |data_fifo_w9xd2048       |     1|
+|2     |data_fifo_w9xd2048__2    |     1|
+|3     |ddr_to_eth_fifo_w9xd4096 |     1|
+|4     |ethernet_mmcm            |     1|
+|5     |frame_fifo_w17xd16       |     1|
+|6     |frame_fifo_w17xd16__2    |     1|
+|7     |shift_ram_IP             |     1|
+|8     |shift_ram_IP__2          |     1|
+|9     |vio_phy_init_done        |     1|
+|10    |vio_rw_trigger           |     1|
+|11    |BUFG                     |     8|
+|12    |BUFIO                    |     1|
+|13    |CARRY4                   |   125|
+|14    |FIFO36E1                 |    13|
+|15    |IDDR                     |     5|
+|16    |IDELAYCTRL               |     2|
+|17    |IDELAYE2                 |     5|
+|18    |IDELAYE2_1               |     2|
+|19    |IDELAYE2_2               |    16|
+|20    |ISERDESE2                |    16|
+|21    |LUT1                     |   232|
+|22    |LUT2                     |   992|
+|23    |LUT3                     |   709|
+|24    |LUT4                     |   516|
+|25    |LUT5                     |   469|
+|26    |LUT6                     | 11858|
+|27    |MUXF7                    |  5183|
+|28    |MUXF8                    |  2439|
+|29    |ODDR                     |     5|
+|30    |OSERDESE2                |    20|
+|31    |PLLE2_ADV                |     1|
+|32    |SRL16E                   |    12|
+|33    |FDCE                     | 21188|
+|34    |FDPE                     |   122|
+|35    |FDRE                     |   865|
+|36    |FDSE                     |    68|
+|37    |LDC                      |   193|
+|38    |LDP                      |     4|
+|39    |IBUF                     |     6|
+|40    |IOBUF                    |    16|
+|41    |IOBUFDS                  |     2|
+|42    |OBUF                     |    33|
+|43    |OBUFDS                   |     1|
++------+-------------------------+------+
+
+Report Instance Areas: 
++------+----------------------------------+------------------------------+------+
+|      |Instance                          |Module                        |Cells |
++------+----------------------------------+------------------------------+------+
+|1     |top                               |                              | 45299|
+|2     |  u_zc_m_axi_0_top                |zc_m_axi_0_top                |  5865|
+|3     |    u_zc_m_axi_rd_0_channel       |zc_m_axi_rd_0_channel         |  3013|
+|4     |      u_zc_m_axi_rd_1_user_itf    |zc_m_axi_rd_1_user_itf        |   369|
+|5     |      u_zc_m_axi_rd_2_buffer      |zc_m_axi_rd_2_buffer          |  2458|
+|6     |        u_w1xd512_rd_data_fifo_3  |async_fifo_1                  |  1998|
+|7     |          dual_port_ram_instance  |dual_port_ram_2               |  1513|
+|8     |          read_ptr_empty_instance |read_ptr_empty_3              |    38|
+|9     |          sync_r2w_instance       |sync_r2w_4                    |    70|
+|10    |          sync_w2r_instance       |sync_w2r_5                    |    21|
+|11    |          write_ptr_full_instance |write_ptr_full_6              |   356|
+|12    |      u_zc_m_axi_rd_3_axi_itf     |zc_m_axi_rd_3_axi_itf         |   183|
+|13    |    u_zc_m_axi_wr_0_channel       |zc_m_axi_wr_0_channel         |  2850|
+|14    |      u_zc_m_axi_wr_1_user_itf    |zc_m_axi_wr_1_user_itf        |   510|
+|15    |      u_zc_m_axi_wr_2_buffer      |zc_m_axi_wr_2_buffer          |  2156|
+|16    |        u_w1xd512_wr_data_fifo_3  |async_fifo                    |  1969|
+|17    |          dual_port_ram_instance  |dual_port_ram                 |  1515|
+|18    |          read_ptr_empty_instance |read_ptr_empty                |    37|
+|19    |          sync_r2w_instance       |sync_r2w                      |    70|
+|20    |          sync_w2r_instance       |sync_w2r                      |    21|
+|21    |          write_ptr_full_instance |write_ptr_full                |   326|
+|22    |      u_zc_m_axi_wr_3_axi_itf     |zc_m_axi_wr_3_axi_itf         |   184|
+|23    |  u_ddr_to_eth_send               |ddr_to_eth_send               |   113|
+|24    |  u_udp_protocol_stack            |udp_protocol_stack            |  1564|
+|25    |    u_ip_layer                    |ip_layer                      |   431|
+|26    |      u_ip_receive                |ip_receive                    |   145|
+|27    |      u_ip_send                   |ip_send                       |   286|
+|28    |    u_mac_layer                   |mac_layer                     |   780|
+|29    |      u_crc32_d8_rx               |crc32_d8                      |    67|
+|30    |      u_crc32_d8_tx               |crc32_d8_0                    |    75|
+|31    |      u_mac_receive               |mac_receive                   |   423|
+|32    |      u_mac_send                  |mac_send                      |   213|
+|33    |    u_mac_to_arp_ip               |mac_to_arp_ip                 |    11|
+|34    |    u_udp_layer                   |udp_layer                     |   254|
+|35    |      u_udp_receive               |udp_receive                   |    94|
+|36    |      u_udp_send                  |udp_send                      |   160|
+|37    |  u_clock_and_reset               |eth_clock_and_reset           |    29|
+|38    |  u_rgmii_interface               |rgmii_interface               |    30|
+|39    |    u_rgmii_receive               |rgmii_receive                 |    19|
+|40    |    u_rgmii_send                  |rgmii_send                    |    11|
+|41    |  u_user_rw_req_generate          |user_rw_req_generate          |    52|
+|42    |  u_zc_ddr3_axi_slave_itf         |zc_ddr3_axi_slave_itf         |   497|
+|43    |  u_zc_ddr_clk_gen                |zc_ddr_clk_gen                |    31|
+|44    |    u_zc_ddr3_pll                 |zc_ddr3_pll                   |    10|
+|45    |  u_zc_ddr_mig                    |zc_ddr_mig                    | 37068|
+|46    |    u_zc_ddr3_core                |zc_ddr3_core                  | 36873|
+|47    |      ddr_dfi_phy                 |zc_ddr3_dfi                   | 36495|
+|48    |        wr_data_fifo_FWFT         |zc_sync_fifo                  | 36215|
+|49    |          dual_port_ram_instance  |dual_port_ram__parameterized0 | 35797|
+|50    |    u_zc_ddr3_phy                 |zc_ddr3_phy                   |   192|
++------+----------------------------------+------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:44 ; elapsed = 00:01:23 . Memory (MB): peak = 1016.082 ; gain = 713.332
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 42 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:36 ; elapsed = 00:01:16 . Memory (MB): peak = 1016.082 ; gain = 309.328
+Synthesis Optimization Complete : Time (s): cpu = 00:00:44 ; elapsed = 00:01:24 . Memory (MB): peak = 1016.082 ; gain = 713.332
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 8026 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 3 inverter(s) to 40 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1016.082 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 216 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 16 instances
+  IOBUFDS => IOBUFDS (IBUFDS, INV, OBUFTDS, OBUFTDS): 2 instances
+  LDC => LDCE: 185 instances
+  LDC => LDCE (inverted pins: G): 8 instances
+  LDP => LDPE: 4 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+543 Infos, 160 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:01:29 . Memory (MB): peak = 1016.082 ; gain = 724.855
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1016.082 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue May  7 00:11:56 2024...

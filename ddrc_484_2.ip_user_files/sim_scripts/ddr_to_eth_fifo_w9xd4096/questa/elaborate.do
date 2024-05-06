@@ -1,0 +1,1 @@
+vopt -64 +acc -l elaborate.log -L xil_defaultlib -L xpm -L fifo_generator_v13_2_3 -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib xil_defaultlib.ddr_to_eth_fifo_w9xd4096 xil_defaultlib.glbl -o ddr_to_eth_fifo_w9xd4096_opt

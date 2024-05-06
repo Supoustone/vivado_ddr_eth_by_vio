@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon May  6 16:35:20 2024
+# Process ID: 12248
+# Current directory: D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.runs/ddr_to_eth_fifo_w9xd4096_synth_1
+# Command line: vivado.exe -log ddr_to_eth_fifo_w9xd4096.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ddr_to_eth_fifo_w9xd4096.tcl
+# Log file: D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.runs/ddr_to_eth_fifo_w9xd4096_synth_1/ddr_to_eth_fifo_w9xd4096.vds
+# Journal file: D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.runs/ddr_to_eth_fifo_w9xd4096_synth_1\vivado.jou
+#-----------------------------------------------------------
+source ddr_to_eth_fifo_w9xd4096.tcl -notrace

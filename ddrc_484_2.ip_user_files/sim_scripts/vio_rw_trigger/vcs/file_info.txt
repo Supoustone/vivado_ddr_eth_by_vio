@@ -1,0 +1,2 @@
+vio_rw_trigger.v,verilog,xil_defaultlib,../../../../ddrc_484_2.srcs/sources_1/ip/vio_rw_trigger/sim/vio_rw_trigger.v,incdir="../../../../ddrc_484_2.srcs/sources_1/ip/vio_rw_trigger/hdl/verilog"incdir="../../../../ddrc_484_2.srcs/sources_1/ip/vio_rw_trigger/hdl"
+glbl.v,Verilog,xil_defaultlib,glbl.v

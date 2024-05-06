@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="vio_phy_init_done_synth_1" LaunchDir="D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2/ddrc_484_2.runs/vio_phy_init_done_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2/ddrc_484_2.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="vio_phy_init_done_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
