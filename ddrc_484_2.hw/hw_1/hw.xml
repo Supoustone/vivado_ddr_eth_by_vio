@@ -37,8 +37,8 @@
     <Object name="u_m_axi_top/m_axi_wlast" gui_info=""/>
     <Object name="u_m_axi_top/mc_init_done" gui_info="Trigger Setup=0"/>
     <Object name="u_m_axi_top/u_zc_m_axi_0_top/user_rd_valid" gui_info=""/>
-    <Object name="u_user_rw_req_generate/vio_rd" gui_info="hw_vios/hw_vio_1=1"/>
-    <Object name="u_user_rw_req_generate/vio_wr" gui_info="hw_vios/hw_vio_1=2"/>
+    <Object name="u_user_rw_req_generate/vio_rd" gui_info="hw_vios/hw_vio_1=2"/>
+    <Object name="u_user_rw_req_generate/vio_wr" gui_info="hw_vios/hw_vio_1=1"/>
     <Object name="u_zc_ddr_mig/phy_init_done" gui_info="hw_vios/hw_vio_1=0,dashboard_1/hw_vio_1=0"/>
     <Object name="u_zc_ddr_mig/u_zc_ddr3_phy/dfi_rddata_valid_o" gui_info="Trigger Setup=1"/>
     <Object name="u_zc_ddr_mig/u_zc_ddr3_phy/rd_data0_w[15:0]" gui_info=""/>

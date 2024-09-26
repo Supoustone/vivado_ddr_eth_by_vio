@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="ddr_to_eth_fifo_w9xd4096_synth_1" LaunchPart="xc7a35tfgg484-2" LaunchTime="1714984519">
   <File Type="PA-TCL" Name="ddr_to_eth_fifo_w9xd4096.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="ddr_to_eth_fifo_w9xd4096_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="ddr_to_eth_fifo_w9xd4096_reports.tcl"/>
   <File Type="RDS-RDS" Name="ddr_to_eth_fifo_w9xd4096.vds"/>
   <File Type="RDS-UTIL" Name="ddr_to_eth_fifo_w9xd4096_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="ddr_to_eth_fifo_w9xd4096_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="ddr_to_eth_fifo_w9xd4096.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="ddr_to_eth_fifo_w9xd4096_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="ddr_to_eth_fifo_w9xd4096_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ddr_to_eth_fifo_w9xd4096">
     <File Path="$PSRCDIR/sources_1/ip/ddr_to_eth_fifo_w9xd4096/ddr_to_eth_fifo_w9xd4096.xci">
       <FileInfo>
@@ -42,9 +39,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

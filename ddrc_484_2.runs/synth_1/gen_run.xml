@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a35tfgg484-2" LaunchTime="1715012088">
   <File Type="PA-TCL" Name="top.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="top_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="top_reports.tcl"/>
   <File Type="RDS-RDS" Name="top.vds"/>
   <File Type="RDS-UTIL" Name="top_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="top_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="top.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="top_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="top_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/crc32_d8.v">
@@ -315,9 +312,9 @@
   </Strategy>
   <BlockFileSet Type="BlockSrcs" Name="vio_phy_init_done"/>
   <BlockFileSet Type="BlockSrcs" Name="vio_rw_trigger"/>
-  <BlockFileSet Type="BlockSrcs" Name="shift_ram_IP"/>
-  <BlockFileSet Type="BlockSrcs" Name="frame_fifo_w17xd16"/>
   <BlockFileSet Type="BlockSrcs" Name="ddr_to_eth_fifo_w9xd4096"/>
+  <BlockFileSet Type="BlockSrcs" Name="frame_fifo_w17xd16"/>
+  <BlockFileSet Type="BlockSrcs" Name="shift_ram_IP"/>
   <BlockFileSet Type="BlockSrcs" Name="ethernet_mmcm"/>
   <BlockFileSet Type="BlockSrcs" Name="data_fifo_w9xd2048"/>
 </GenRun>

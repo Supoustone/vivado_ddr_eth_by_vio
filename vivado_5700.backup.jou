@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon May 20 22:09:17 2024
+# Process ID: 5700
+# Current directory: D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17108 D:\software_download_zc\Vivado\vivado_my_projects_2\IC\vivado_ddrc_484_2_ddr_eth\ddrc_484_2.xpr
+# Log file: D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/vivado.log
+# Journal file: D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth\vivado.jou
+# Running On: else, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16961 MB
+#-----------------------------------------------------------
+start_gui

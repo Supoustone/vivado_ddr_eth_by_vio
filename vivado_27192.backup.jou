@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon May 20 23:50:09 2024
+# Process ID: 27192
+# Current directory: D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27616 D:\software_download_zc\Vivado\vivado_my_projects_2\IC\vivado_ddrc_484_2_ddr_eth\ddrc_484_2.xpr
+# Log file: D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/vivado.log
+# Journal file: D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+set_property PROBES.FILE {D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/software_download_zc/Vivado/vivado_my_projects_2/IC/vivado_ddrc_484_2_ddr_eth/ddrc_484_2.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"u_ila_0"}]
+set_property OUTPUT_VALUE 0 [get_hw_probes u_zc_ddr_mig/phy_init_done -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"u_zc_ddr_mig/u_vio_phy_init_done"}]]
+commit_hw_vio [get_hw_probes {u_zc_ddr_mig/phy_init_done} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"u_zc_ddr_mig/u_vio_phy_init_done"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes u_zc_ddr_mig/phy_init_done -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"u_zc_ddr_mig/u_vio_phy_init_done"}]]
+commit_hw_vio [get_hw_probes {u_zc_ddr_mig/phy_init_done} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"u_zc_ddr_mig/u_vio_phy_init_done"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes u_user_rw_req_generate/vio_wr -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"u_user_rw_req_generate/u_vio_rw_trigger"}]]
+commit_hw_vio [get_hw_probes {u_user_rw_req_generate/vio_wr} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"u_user_rw_req_generate/u_vio_rw_trigger"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes u_user_rw_req_generate/vio_wr -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"u_user_rw_req_generate/u_vio_rw_trigger"}]]
+commit_hw_vio [get_hw_probes {u_user_rw_req_generate/vio_wr} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"u_user_rw_req_generate/u_vio_rw_trigger"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes u_user_rw_req_generate/vio_rd -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"u_user_rw_req_generate/u_vio_rw_trigger"}]]
+commit_hw_vio [get_hw_probes {u_user_rw_req_generate/vio_rd} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"u_user_rw_req_generate/u_vio_rw_trigger"}]]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes u_user_rw_req_generate/vio_rd -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"u_user_rw_req_generate/u_vio_rw_trigger"}]]
+commit_hw_vio [get_hw_probes {u_user_rw_req_generate/vio_rd} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"u_user_rw_req_generate/u_vio_rw_trigger"}]]
